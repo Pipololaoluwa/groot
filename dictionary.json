@@ -1,0 +1,2562 @@
+[
+  {
+    "id": 1,
+    "yo": "ẹ n lẹ́",
+    "en": "Hello",
+    "category": "Greetings",
+    "example": "Ẹ n lẹ́, báwo ni?",
+    "exampleEn": "Hello, how are you?"
+  },
+  {
+    "id": 2,
+    "yo": "báwo ni",
+    "en": "How are you?",
+    "category": "Greetings",
+    "example": "Báwo ni lónìí?",
+    "exampleEn": "How are you today?"
+  },
+  {
+    "id": 3,
+    "yo": "ẹ káàárọ̀",
+    "en": "Good morning",
+    "category": "Greetings",
+    "example": "Ẹ káàárọ̀, ẹ kú àárọ̀.",
+    "exampleEn": "Good morning, greetings for the morning."
+  },
+  {
+    "id": 4,
+    "yo": "ẹ káàsán",
+    "en": "Good afternoon",
+    "category": "Greetings",
+    "example": "Ẹ káàsán, ẹ kú iṣẹ́.",
+    "exampleEn": "Good afternoon, well done with your work."
+  },
+  {
+    "id": 5,
+    "yo": "ẹ káalẹ́",
+    "en": "Good evening",
+    "category": "Greetings",
+    "example": "Ẹ káalẹ́, báwo ni ọjọ́ yín ṣe rí?",
+    "exampleEn": "Good evening, how was your day?"
+  },
+  {
+    "id": 6,
+    "yo": "ó dàbọ̀",
+    "en": "Goodbye",
+    "category": "Greetings",
+    "example": "Ó dàbọ̀, a ó rí ẹ lọ́la.",
+    "exampleEn": "Goodbye, we will see you tomorrow."
+  },
+  {
+    "id": 7,
+    "yo": "ẹ ṣé",
+    "en": "Thank you",
+    "category": "Greetings",
+    "example": "Ẹ ṣé fún ìrànlọ́wọ́ yín.",
+    "exampleEn": "Thank you for your help."
+  },
+  {
+    "id": 8,
+    "yo": "jọ̀wọ́",
+    "en": "Please",
+    "category": "Greetings",
+    "example": "Jọ̀wọ́, ràn mí lọ́wọ́.",
+    "exampleEn": "Please, help me."
+  },
+  {
+    "id": 9,
+    "yo": "pẹ̀lẹ́",
+    "en": "Sorry",
+    "category": "Greetings",
+    "example": "Pẹ̀lẹ́, mo mọ̀ pé o rẹ̀.",
+    "exampleEn": "Sorry, I know that you are tired."
+  },
+  {
+    "id": 10,
+    "yo": "káàbọ̀",
+    "en": "Welcome",
+    "category": "Greetings",
+    "example": "Káàbọ̀ sí ilé wa.",
+    "exampleEn": "Welcome to our home."
+  },
+  {
+    "id": 11,
+    "yo": "bẹ́ẹ̀ni",
+    "en": "Yes",
+    "category": "Everyday",
+    "example": "Bẹ́ẹ̀ni, mo fẹ́ lọ.",
+    "exampleEn": "Yes, I want to go."
+  },
+  {
+    "id": 12,
+    "yo": "bẹ́ẹ̀kọ́",
+    "en": "No",
+    "category": "Everyday",
+    "example": "Bẹ́ẹ̀kọ́, mi ò fẹ́.",
+    "exampleEn": "No, I don't want it."
+  },
+  {
+    "id": 13,
+    "yo": "àbúrò",
+    "en": "Younger sibling",
+    "category": "Family",
+    "example": "Àbúrò mi wà ní ilé.",
+    "exampleEn": "My younger sibling is at home."
+  },
+  {
+    "id": 14,
+    "yo": "àgbà",
+    "en": "Elder / adult",
+    "category": "People",
+    "example": "Àgbà ni ó yẹ kí a bọ̀wọ̀ fún.",
+    "exampleEn": "An elder is someone we should respect."
+  },
+  {
+    "id": 15,
+    "yo": "àga",
+    "en": "Chair",
+    "category": "Home",
+    "example": "Jọ̀wọ́, jókòó sórí àga.",
+    "exampleEn": "Please, sit on the chair."
+  },
+  {
+    "id": 16,
+    "yo": "àdúrà",
+    "en": "Prayer",
+    "category": "Values & Feelings",
+    "example": "Mo ń ṣe àdúrà fún ìdílé mi.",
+    "exampleEn": "I am praying for my family."
+  },
+  {
+    "id": 17,
+    "yo": "àkàrà",
+    "en": "Bean cake",
+    "category": "Food",
+    "example": "Mo fẹ́ ra àkàrà.",
+    "exampleEn": "I want to buy bean cake."
+  },
+  {
+    "id": 18,
+    "yo": "àlàáfíà",
+    "en": "Peace / well-being",
+    "category": "Values & Feelings",
+    "example": "Mo fẹ́ kí ẹ wà ní àlàáfíà.",
+    "exampleEn": "I want you to be in peace and good health."
+  },
+  {
+    "id": 19,
+    "yo": "àlà",
+    "en": "Dream",
+    "category": "Values & Feelings",
+    "example": "Mo lá àlá rere lánàá.",
+    "exampleEn": "I had a good dream yesterday."
+  },
+  {
+    "id": 20,
+    "yo": "àwọ̀",
+    "en": "Color",
+    "category": "Colors",
+    "example": "Àwọ̀ wo ni o fẹ́ràn?",
+    "exampleEn": "Which color do you like?"
+  },
+  {
+    "id": 21,
+    "yo": "àpótí",
+    "en": "Box",
+    "category": "Home",
+    "example": "Fi aṣọ sínú àpótí.",
+    "exampleEn": "Put the clothes in the box."
+  },
+  {
+    "id": 22,
+    "yo": "àpò",
+    "en": "Bag / pocket",
+    "category": "Everyday",
+    "example": "Owó wà nínú àpò mi.",
+    "exampleEn": "There is money in my bag."
+  },
+  {
+    "id": 23,
+    "yo": "àṣọ",
+    "en": "Clothing / cloth",
+    "category": "Clothing",
+    "example": "Àṣọ yìí lẹ́wà gan-an.",
+    "exampleEn": "This clothing is very beautiful."
+  },
+  {
+    "id": 24,
+    "yo": "àṣàyàn",
+    "en": "Choice / selection",
+    "category": "Everyday",
+    "example": "Àṣàyàn rẹ dára.",
+    "exampleEn": "Your choice is good."
+  },
+  {
+    "id": 25,
+    "yo": "àkókò",
+    "en": "Time / period",
+    "category": "Time",
+    "example": "Àkókò ti tó láti lọ.",
+    "exampleEn": "It is time to go."
+  },
+  {
+    "id": 26,
+    "yo": "àná",
+    "en": "Yesterday",
+    "category": "Time",
+    "example": "Mo rí i lánàá.",
+    "exampleEn": "I saw him/her yesterday."
+  },
+  {
+    "id": 27,
+    "yo": "afẹ́fẹ́",
+    "en": "Wind / air",
+    "category": "Nature",
+    "example": "Afẹ́fẹ́ ń fẹ́ dáadáa.",
+    "exampleEn": "The wind is blowing nicely."
+  },
+  {
+    "id": 28,
+    "yo": "àkàrà",
+    "en": "Bean cake",
+    "category": "Food",
+    "example": "Àkàrà yìí dùn.",
+    "exampleEn": "This bean cake is delicious."
+  },
+  {
+    "id": 29,
+    "yo": "bàbá",
+    "en": "Father",
+    "category": "Family",
+    "example": "Bàbá mi wà nílé.",
+    "exampleEn": "My father is at home."
+  },
+  {
+    "id": 30,
+    "yo": "bàbá ńlá",
+    "en": "Grandfather",
+    "category": "Family",
+    "example": "Bàbá ńlá mi fẹ́ràn ìtàn.",
+    "exampleEn": "My grandfather likes stories."
+  },
+  {
+    "id": 31,
+    "yo": "bàtà",
+    "en": "Shoe",
+    "category": "Clothing",
+    "example": "Bàtà tuntun ni mo wọ̀.",
+    "exampleEn": "I am wearing new shoes."
+  },
+  {
+    "id": 32,
+    "yo": "bàtàkì",
+    "en": "Important",
+    "category": "Descriptions",
+    "example": "Ẹ̀kọ́ ṣe pàtàkì.",
+    "exampleEn": "Education is important."
+  },
+  {
+    "id": 33,
+    "yo": "bẹ̀rẹ̀",
+    "en": "Begin / start",
+    "category": "Actions",
+    "example": "Jẹ́ kí a bẹ̀rẹ̀ ẹ̀kọ́.",
+    "exampleEn": "Let us begin the lesson."
+  },
+  {
+    "id": 34,
+    "yo": "bẹ̀rù",
+    "en": "Fear",
+    "category": "Values & Feelings",
+    "example": "Má bẹ̀rù.",
+    "exampleEn": "Don't be afraid."
+  },
+  {
+    "id": 35,
+    "yo": "bí",
+    "en": "Give birth / when",
+    "category": "Actions",
+    "example": "Ìyá rẹ bí ọmọ kan.",
+    "exampleEn": "Your mother gave birth to a child."
+  },
+  {
+    "id": 36,
+    "yo": "bíi",
+    "en": "Like / such as",
+    "category": "Everyday",
+    "example": "Mo fẹ́ràn eso bíi ọ̀gẹ̀dẹ̀.",
+    "exampleEn": "I like fruit such as bananas."
+  },
+  {
+    "id": 37,
+    "yo": "bínú",
+    "en": "Be angry",
+    "category": "Actions",
+    "example": "Má bínú sí mi.",
+    "exampleEn": "Don't be angry with me."
+  },
+  {
+    "id": 38,
+    "yo": "bùrẹ́dì",
+    "en": "Bread",
+    "category": "Food",
+    "example": "Mo ra bùrẹ́dì ní ọjà.",
+    "exampleEn": "I bought bread at the market."
+  },
+  {
+    "id": 39,
+    "yo": "dúdú",
+    "en": "Black",
+    "category": "Colors",
+    "example": "Mo fẹ́ aṣọ dúdú.",
+    "exampleEn": "I want black clothing."
+  },
+  {
+    "id": 40,
+    "yo": "dá",
+    "en": "Good / create",
+    "category": "Descriptions",
+    "example": "O dára gan-an.",
+    "exampleEn": "It is very good."
+  },
+  {
+    "id": 41,
+    "yo": "dára",
+    "en": "Good / fine",
+    "category": "Descriptions",
+    "example": "Báwo ni? Mo dára.",
+    "exampleEn": "How are you? I am fine."
+  },
+  {
+    "id": 42,
+    "yo": "dájú",
+    "en": "Certain / sure",
+    "category": "Descriptions",
+    "example": "Mo dájú pé ó máa wá.",
+    "exampleEn": "I am sure that he/she will come."
+  },
+  {
+    "id": 43,
+    "yo": "dàgbà",
+    "en": "Grow up / become old",
+    "category": "Actions",
+    "example": "Ọmọ náà ti dàgbà.",
+    "exampleEn": "The child has grown up."
+  },
+  {
+    "id": 44,
+    "yo": "dàgbàlagbà",
+    "en": "Elderly person",
+    "category": "People",
+    "example": "Dàgbàlagbà náà jókòó síta.",
+    "exampleEn": "The elderly person sat outside."
+  },
+  {
+    "id": 45,
+    "yo": "dáadáa",
+    "en": "Very well / good",
+    "category": "Descriptions",
+    "example": "Mo mọ̀ ọ́ dáadáa.",
+    "exampleEn": "I know him/her very well."
+  },
+  {
+    "id": 46,
+    "yo": "dán",
+    "en": "Test / try",
+    "category": "Actions",
+    "example": "Dán oúnjẹ náà wò.",
+    "exampleEn": "Taste the food."
+  },
+  {
+    "id": 47,
+    "yo": "dáradára",
+    "en": "Beautiful / excellent",
+    "category": "Descriptions",
+    "example": "Ilé náà lẹ́wà dáradára.",
+    "exampleEn": "The house is very beautiful."
+  },
+  {
+    "id": 48,
+    "yo": "díẹ̀",
+    "en": "A little",
+    "category": "Descriptions",
+    "example": "Fi omi díẹ̀ sínú ife.",
+    "exampleEn": "Put a little water in the cup."
+  },
+  {
+    "id": 49,
+    "yo": "dín",
+    "en": "Reduce / decrease",
+    "category": "Actions",
+    "example": "Jọ̀wọ́, dín iná kù.",
+    "exampleEn": "Please reduce the heat."
+  },
+  {
+    "id": 50,
+    "yo": "dúró",
+    "en": "Stand / wait",
+    "category": "Actions",
+    "example": "Dúró díẹ̀.",
+    "exampleEn": "Wait a little."
+  },
+  {
+    "id": 51,
+    "yo": "dáhùn",
+    "en": "Answer",
+    "category": "Communication",
+    "example": "Jọ̀wọ́, dáhùn ìbéèrè náà.",
+    "exampleEn": "Please answer the question."
+  },
+  {
+    "id": 52,
+    "yo": "dínà",
+    "en": "Block / obstruct",
+    "category": "Actions",
+    "example": "Má dín ọ̀nà náà mọ́.",
+    "exampleEn": "Don't block the road."
+  },
+  {
+    "id": 53,
+    "yo": "eegun",
+    "en": "Bone",
+    "category": "Body",
+    "example": "Eegun rẹ̀ ń dun.",
+    "exampleEn": "His/her bone hurts."
+  },
+  {
+    "id": 54,
+    "yo": "ẹja",
+    "en": "Fish",
+    "category": "Food",
+    "example": "Ẹja wà nínú omi.",
+    "exampleEn": "Fish are in the water."
+  },
+  {
+    "id": 55,
+    "yo": "ẹran",
+    "en": "Meat / animal",
+    "category": "Food",
+    "example": "Mo fẹ́ ẹran nínú oúnjẹ mi.",
+    "exampleEn": "I want meat in my food."
+  },
+  {
+    "id": 56,
+    "yo": "ẹsẹ̀",
+    "en": "Leg / foot",
+    "category": "Body",
+    "example": "Ẹsẹ̀ mi ń dun.",
+    "exampleEn": "My leg hurts."
+  },
+  {
+    "id": 57,
+    "yo": "ẹnu",
+    "en": "Mouth",
+    "category": "Body",
+    "example": "Ṣí ẹnu rẹ.",
+    "exampleEn": "Open your mouth."
+  },
+  {
+    "id": 58,
+    "yo": "ẹ̀gbọ́n",
+    "en": "Older sibling",
+    "category": "Family",
+    "example": "Ẹ̀gbọ́n mi ń ṣiṣẹ́ ní ilé-ẹ̀kọ́.",
+    "exampleEn": "My older sibling works at a school."
+  },
+  {
+    "id": 59,
+    "yo": "ẹ̀kọ́",
+    "en": "Lesson / education",
+    "category": "Education",
+    "example": "Ẹ̀kọ́ Yorùbá ṣe pàtàkì.",
+    "exampleEn": "Yoruba education is important."
+  },
+  {
+    "id": 60,
+    "yo": "ẹ̀dá",
+    "en": "Creature / being",
+    "category": "People",
+    "example": "Gbogbo ẹ̀dá ní iye.",
+    "exampleEn": "Every living being has value."
+  },
+  {
+    "id": 61,
+    "yo": "ẹ̀dá ènìyàn",
+    "en": "Human being",
+    "category": "People",
+    "example": "Ẹ̀dá ènìyàn nílò omi.",
+    "exampleEn": "Human beings need water."
+  },
+  {
+    "id": 62,
+    "yo": "ẹ̀fà",
+    "en": "Six",
+    "category": "Numbers",
+    "example": "Mo ní ẹ̀fà ọ̀rẹ́.",
+    "exampleEn": "I have six friends."
+  },
+  {
+    "id": 63,
+    "yo": "ẹ̀jọ",
+    "en": "Eight",
+    "category": "Numbers",
+    "example": "Wọ́n dé ní agogo mẹ́jọ.",
+    "exampleEn": "They arrived at eight o'clock."
+  },
+  {
+    "id": 64,
+    "yo": "ẹ̀sán",
+    "en": "Nine",
+    "category": "Numbers",
+    "example": "Mo ní ẹ̀sán ìwé.",
+    "exampleEn": "I have nine books."
+  },
+  {
+    "id": 65,
+    "yo": "ẹ̀ta",
+    "en": "Three",
+    "category": "Numbers",
+    "example": "Mo ní ọmọ mẹ́ta.",
+    "exampleEn": "I have three children."
+  },
+  {
+    "id": 66,
+    "yo": "ẹ̀rin",
+    "en": "Four",
+    "category": "Numbers",
+    "example": "Àwọn àga mẹ́rin wà níbẹ̀.",
+    "exampleEn": "There are four chairs there."
+  },
+  {
+    "id": 67,
+    "yo": "ẹ̀wá",
+    "en": "Ten",
+    "category": "Numbers",
+    "example": "Mo ka sí mẹ́wàá.",
+    "exampleEn": "I counted to ten."
+  },
+  {
+    "id": 68,
+    "yo": "ẹ̀wà",
+    "en": "Beauty",
+    "category": "Descriptions",
+    "example": "Ẹ̀wà rẹ̀ dùn mọ́ mi.",
+    "exampleEn": "I admire her beauty."
+  },
+  {
+    "id": 69,
+    "yo": "ẹ̀rín",
+    "en": "Laughter",
+    "category": "Values & Feelings",
+    "example": "Ẹ̀rín wọn kún ilé.",
+    "exampleEn": "Their laughter filled the house."
+  },
+  {
+    "id": 70,
+    "yo": "ẹ̀rù",
+    "en": "Load / burden",
+    "category": "Everyday",
+    "example": "Ẹ̀rù náà wuwo.",
+    "exampleEn": "The load is heavy."
+  },
+  {
+    "id": 71,
+    "yo": "ẹ̀tọ́",
+    "en": "Right / entitlement",
+    "category": "Values & Feelings",
+    "example": "Gbogbo ènìyàn ní ẹ̀tọ́.",
+    "exampleEn": "Everyone has rights."
+  },
+  {
+    "id": 72,
+    "yo": "ẹ̀ṣẹ̀",
+    "en": "Sin / wrongdoing",
+    "category": "Values & Feelings",
+    "example": "A gbọ́dọ̀ yàgò fún ẹ̀ṣẹ̀.",
+    "exampleEn": "We should avoid wrongdoing."
+  },
+  {
+    "id": 73,
+    "yo": "ẹ̀rí",
+    "en": "Evidence / testimony",
+    "category": "Communication",
+    "example": "Ó ní ẹ̀rí fún ohun tí ó sọ.",
+    "exampleEn": "He/she has evidence for what was said."
+  },
+  {
+    "id": 74,
+    "yo": "ẹ̀bùn",
+    "en": "Gift",
+    "category": "Everyday",
+    "example": "Ó fún mi ní ẹ̀bùn.",
+    "exampleEn": "He/she gave me a gift."
+  },
+  {
+    "id": 75,
+    "yo": "ẹ̀mí",
+    "en": "Life / spirit",
+    "category": "Values & Feelings",
+    "example": "Ẹ̀mí jẹ́ ohun iyebíye.",
+    "exampleEn": "Life is precious."
+  },
+  {
+    "id": 76,
+    "yo": "ẹ̀fọ́",
+    "en": "Leafy vegetable",
+    "category": "Food",
+    "example": "Mo fẹ́ ẹ̀fọ́ sínú ọbẹ̀.",
+    "exampleEn": "I want leafy vegetables in the soup."
+  },
+  {
+    "id": 77,
+    "yo": "fún",
+    "en": "Give / for",
+    "category": "Actions",
+    "example": "Fún mi ní omi.",
+    "exampleEn": "Give me some water."
+  },
+  {
+    "id": 78,
+    "yo": "fẹ́",
+    "en": "Want / love",
+    "category": "Actions",
+    "example": "Mo fẹ́ kọ́ Yorùbá.",
+    "exampleEn": "I want to learn Yoruba."
+  },
+  {
+    "id": 79,
+    "yo": "fọ́",
+    "en": "Break / wash",
+    "category": "Actions",
+    "example": "Fọ́ ọwọ́ rẹ kí o tó jẹun.",
+    "exampleEn": "Wash your hands before eating."
+  },
+  {
+    "id": 80,
+    "yo": "fọ́jú",
+    "en": "Become blind",
+    "category": "Body",
+    "example": "Àìsàn náà lè mú kí ènìyàn fọ́jú.",
+    "exampleEn": "The illness can cause a person to become blind."
+  },
+  {
+    "id": 81,
+    "yo": "fìlà",
+    "en": "Cap / hat",
+    "category": "Clothing",
+    "example": "Fìlà rẹ lẹ́wà.",
+    "exampleEn": "Your cap is beautiful."
+  },
+  {
+    "id": 82,
+    "yo": "fò",
+    "en": "Fly",
+    "category": "Actions",
+    "example": "Ẹyẹ náà ń fò.",
+    "exampleEn": "The bird is flying."
+  },
+  {
+    "id": 83,
+    "yo": "fúnfun",
+    "en": "White",
+    "category": "Colors",
+    "example": "Mo fẹ́ aṣọ funfun.",
+    "exampleEn": "I want white clothing."
+  },
+  {
+    "id": 84,
+    "yo": "fọ́tò",
+    "en": "Photograph",
+    "category": "Everyday",
+    "example": "Jọ̀wọ́, ya fọ́tò wa.",
+    "exampleEn": "Please take our photograph."
+  },
+  {
+    "id": 85,
+    "yo": "fìdí múlẹ̀",
+    "en": "Establish / confirm",
+    "category": "Actions",
+    "example": "Ó fìdí ọ̀rọ̀ náà múlẹ̀.",
+    "exampleEn": "He/she confirmed the matter."
+  },
+  {
+    "id": 86,
+    "yo": "gíga",
+    "en": "Height / tallness",
+    "category": "Descriptions",
+    "example": "Gíga ilé náà ga gan-an.",
+    "exampleEn": "The height of the building is very great."
+  },
+  {
+    "id": 87,
+    "yo": "gòkè",
+    "en": "Go up / climb",
+    "category": "Actions",
+    "example": "Gòkè sí àjà.",
+    "exampleEn": "Go upstairs."
+  },
+  {
+    "id": 88,
+    "yo": "gùn",
+    "en": "Ride / climb",
+    "category": "Actions",
+    "example": "Mo fẹ́ gùn kẹ̀kẹ́.",
+    "exampleEn": "I want to ride a bicycle."
+  },
+  {
+    "id": 89,
+    "yo": "gún",
+    "en": "Pound / pierce",
+    "category": "Actions",
+    "example": "Ó ń gún ata.",
+    "exampleEn": "He/she is pounding pepper."
+  },
+  {
+    "id": 90,
+    "yo": "gidi",
+    "en": "Real / genuine",
+    "category": "Descriptions",
+    "example": "Èyí jẹ́ wúrà gidi.",
+    "exampleEn": "This is real gold."
+  },
+  {
+    "id": 91,
+    "yo": "gbolóhùn",
+    "en": "Sentence",
+    "category": "Education",
+    "example": "Kọ gbolóhùn kan ní Yorùbá.",
+    "exampleEn": "Write a sentence in Yoruba."
+  },
+  {
+    "id": 92,
+    "yo": "gbọ́",
+    "en": "Hear / understand",
+    "category": "Communication",
+    "example": "Ṣé o gbọ́ ohun tí mo sọ?",
+    "exampleEn": "Did you hear what I said?"
+  },
+  {
+    "id": 93,
+    "yo": "gbọ́n",
+    "en": "Be wise",
+    "category": "Descriptions",
+    "example": "Ọmọ náà gbọ́n gan-an.",
+    "exampleEn": "The child is very clever."
+  },
+  {
+    "id": 94,
+    "yo": "ìyá",
+    "en": "Mother",
+    "category": "Family",
+    "example": "Ìyá mi ń ṣe oúnjẹ.",
+    "exampleEn": "My mother is cooking."
+  },
+  {
+    "id": 95,
+    "yo": "ìdílé",
+    "en": "Family",
+    "category": "Family",
+    "example": "Ìdílé mi ń gbé ní ìlú ńlá.",
+    "exampleEn": "My family lives in a big city."
+  },
+  {
+    "id": 96,
+    "yo": "ìfẹ́",
+    "en": "Love",
+    "category": "Values & Feelings",
+    "example": "Ìfẹ́ ṣe pàtàkì nínú ìdílé.",
+    "exampleEn": "Love is important in a family."
+  },
+  {
+    "id": 97,
+    "yo": "ìbànújẹ́",
+    "en": "Sadness",
+    "category": "Values & Feelings",
+    "example": "Ìbànújẹ́ wà lójú rẹ̀.",
+    "exampleEn": "There is sadness on his/her face."
+  },
+  {
+    "id": 98,
+    "yo": "ìbẹ̀rù",
+    "en": "Fear",
+    "category": "Values & Feelings",
+    "example": "Ìbẹ̀rù kò yẹ kí ó dá wa dúró.",
+    "exampleEn": "Fear should not stop us."
+  },
+  {
+    "id": 99,
+    "yo": "ìgboyà",
+    "en": "Courage",
+    "category": "Values & Feelings",
+    "example": "Ó fi ìgboyà sọ òtítọ́.",
+    "exampleEn": "He/she courageously told the truth."
+  },
+  {
+    "id": 100,
+    "yo": "ìlú",
+    "en": "Town / city",
+    "category": "Places",
+    "example": "Ìlú yìí tóbi.",
+    "exampleEn": "This city is big."
+  },
+  {
+    "id": 101,
+    "yo": "ilé",
+    "en": "House / home",
+    "category": "Places",
+    "example": "Mo wà nílé.",
+    "exampleEn": "I am at home."
+  },
+  {
+    "id": 102,
+    "yo": "ilé-ẹ̀kọ́",
+    "en": "School",
+    "category": "Education",
+    "example": "Àwọn ọmọ lọ sí ilé-ẹ̀kọ́.",
+    "exampleEn": "The children went to school."
+  },
+  {
+    "id": 103,
+    "yo": "iná",
+    "en": "Fire",
+    "category": "Nature",
+    "example": "Iná ń jó.",
+    "exampleEn": "The fire is burning."
+  },
+  {
+    "id": 104,
+    "yo": "omi",
+    "en": "Water",
+    "category": "Nature",
+    "example": "Jọ̀wọ́, fún mi ní omi.",
+    "exampleEn": "Please give me some water."
+  },
+  {
+    "id": 105,
+    "yo": "igi",
+    "en": "Tree",
+    "category": "Nature",
+    "example": "Igi ńlá wà ní iwájú ilé.",
+    "exampleEn": "There is a big tree in front of the house."
+  },
+  {
+    "id": 106,
+    "yo": "iṣu",
+    "en": "Yam",
+    "category": "Food",
+    "example": "A ń se iṣu fún oúnjẹ.",
+    "exampleEn": "We are boiling yam for food."
+  },
+  {
+    "id": 107,
+    "yo": "ìrẹsì",
+    "en": "Rice",
+    "category": "Food",
+    "example": "Mo fẹ́ jẹ ìrẹsì.",
+    "exampleEn": "I want to eat rice."
+  },
+  {
+    "id": 108,
+    "yo": "ìrẹ́pọ̀",
+    "en": "Cooperation / unity",
+    "category": "Society",
+    "example": "Ìrẹ́pọ̀ máa ń mú àṣeyọrí wá.",
+    "exampleEn": "Cooperation brings success."
+  },
+  {
+    "id": 109,
+    "yo": "ìrìn",
+    "en": "Walking / journey",
+    "category": "Actions",
+    "example": "Ìrìn náà gùn.",
+    "exampleEn": "The journey was long."
+  },
+  {
+    "id": 110,
+    "yo": "ìwé",
+    "en": "Book",
+    "category": "Education",
+    "example": "Mo ń ka ìwé Yorùbá.",
+    "exampleEn": "I am reading a Yoruba book."
+  },
+  {
+    "id": 111,
+    "yo": "ìkọ̀wé",
+    "en": "Writing",
+    "category": "Education",
+    "example": "Ìkọ̀wé rẹ dára.",
+    "exampleEn": "Your writing is good."
+  },
+  {
+    "id": 112,
+    "yo": "ìkàwé",
+    "en": "Library",
+    "category": "Education",
+    "example": "Mo lọ sí ìkàwé láti ka ìwé.",
+    "exampleEn": "I went to the library to read."
+  },
+  {
+    "id": 113,
+    "yo": "ìdánwò",
+    "en": "Test / examination",
+    "category": "Education",
+    "example": "A ní ìdánwò lọ́la.",
+    "exampleEn": "We have an examination tomorrow."
+  },
+  {
+    "id": 114,
+    "yo": "ìṣẹ́",
+    "en": "Work / job",
+    "category": "Everyday",
+    "example": "Mo lọ síbi iṣẹ́.",
+    "exampleEn": "I went to work."
+  },
+  {
+    "id": 115,
+    "yo": "ìsinmi",
+    "en": "Rest",
+    "category": "Everyday",
+    "example": "Mo nílò ìsinmi díẹ̀.",
+    "exampleEn": "I need a little rest."
+  },
+  {
+    "id": 116,
+    "yo": "ìdárayá",
+    "en": "Exercise / recreation",
+    "category": "Everyday",
+    "example": "Mo ń ṣe ìdárayá ní òwúrọ̀.",
+    "exampleEn": "I exercise in the morning."
+  },
+  {
+    "id": 117,
+    "yo": "ìtàn",
+    "en": "Story / history",
+    "category": "Education",
+    "example": "Mo fẹ́ gbọ́ ìtàn yẹn.",
+    "exampleEn": "I want to hear that story."
+  },
+  {
+    "id": 118,
+    "yo": "ìbéèrè",
+    "en": "Question",
+    "category": "Communication",
+    "example": "Mo ní ìbéèrè kan.",
+    "exampleEn": "I have a question."
+  },
+  {
+    "id": 119,
+    "yo": "ìdáhùn",
+    "en": "Answer",
+    "category": "Communication",
+    "example": "Ìdáhùn rẹ tọ́.",
+    "exampleEn": "Your answer is correct."
+  },
+  {
+    "id": 120,
+    "yo": "ìròyìn",
+    "en": "News / report",
+    "category": "Communication",
+    "example": "Mo gbọ́ ìròyìn náà.",
+    "exampleEn": "I heard the news."
+  },
+  {
+    "id": 121,
+    "yo": "jí",
+    "en": "Wake up",
+    "category": "Actions",
+    "example": "Mo máa ń jí ní kutukutu.",
+    "exampleEn": "I usually wake up early."
+  },
+  {
+    "id": 122,
+    "yo": "jẹun",
+    "en": "Eat",
+    "category": "Actions",
+    "example": "Àwọn ọmọ ń jẹun.",
+    "exampleEn": "The children are eating."
+  },
+  {
+    "id": 123,
+    "yo": "jẹ́",
+    "en": "Be / become",
+    "category": "Everyday",
+    "example": "Ó jẹ́ olùkọ́.",
+    "exampleEn": "He/she is a teacher."
+  },
+  {
+    "id": 124,
+    "yo": "jẹ́wọ́",
+    "en": "Confess",
+    "category": "Communication",
+    "example": "Ó jẹ́wọ́ ohun tí ó ṣe.",
+    "exampleEn": "He/she confessed what was done."
+  },
+  {
+    "id": 125,
+    "yo": "jà",
+    "en": "Fight",
+    "category": "Actions",
+    "example": "Má ṣe jà pẹ̀lú arákùnrin rẹ.",
+    "exampleEn": "Don't fight with your brother."
+  },
+  {
+    "id": 126,
+    "yo": "jó",
+    "en": "Dance / burn",
+    "category": "Actions",
+    "example": "A fẹ́ jó lálẹ́.",
+    "exampleEn": "We want to dance tonight."
+  },
+  {
+    "id": 127,
+    "yo": "jókòó",
+    "en": "Sit",
+    "category": "Actions",
+    "example": "Jókòó níbí.",
+    "exampleEn": "Sit here."
+  },
+  {
+    "id": 128,
+    "yo": "jọ",
+    "en": "Gather / resemble",
+    "category": "Actions",
+    "example": "Ẹ̀yin méjèèjì jọ ara yín.",
+    "exampleEn": "You two look alike."
+  },
+  {
+    "id": 129,
+    "yo": "jù",
+    "en": "Throw / exceed",
+    "category": "Actions",
+    "example": "Má jù ọ̀pá náà síta.",
+    "exampleEn": "Don't throw the stick outside."
+  },
+  {
+    "id": 130,
+    "yo": "jùlọ",
+    "en": "Most",
+    "category": "Descriptions",
+    "example": "Èyí ni mo fẹ́ràn jùlọ.",
+    "exampleEn": "This is the one I like most."
+  },
+  {
+    "id": 131,
+    "yo": "jẹ́jẹ́",
+    "en": "Gently / softly",
+    "category": "Descriptions",
+    "example": "Máa lọ jẹ́jẹ́.",
+    "exampleEn": "Go gently."
+  },
+  {
+    "id": 132,
+    "yo": "kí",
+    "en": "Greet",
+    "category": "Greetings",
+    "example": "Kí bàbá rẹ fún mi.",
+    "exampleEn": "Greet your father for me."
+  },
+  {
+    "id": 133,
+    "yo": "kí ló dé",
+    "en": "Why",
+    "category": "Communication",
+    "example": "Kí ló dé tí o fi pẹ́?",
+    "exampleEn": "Why are you late?"
+  },
+  {
+    "id": 134,
+    "yo": "kò",
+    "en": "Not / no",
+    "category": "Everyday",
+    "example": "Mi ò mọ̀.",
+    "exampleEn": "I don't know."
+  },
+  {
+    "id": 135,
+    "yo": "kò sí",
+    "en": "There is none / no",
+    "category": "Everyday",
+    "example": "Kò sí omi mọ́.",
+    "exampleEn": "There is no more water."
+  },
+  {
+    "id": 136,
+    "yo": "kà",
+    "en": "Read / count",
+    "category": "Education",
+    "example": "Kà ìwé náà.",
+    "exampleEn": "Read the book."
+  },
+  {
+    "id": 137,
+    "yo": "kàwé",
+    "en": "Read / study",
+    "category": "Education",
+    "example": "Mo ń kàwé fún ìdánwò.",
+    "exampleEn": "I am studying for an examination."
+  },
+  {
+    "id": 138,
+    "yo": "kan",
+    "en": "One / some",
+    "category": "Numbers",
+    "example": "Mo fẹ́ kan nínú wọn.",
+    "exampleEn": "I want one of them."
+  },
+  {
+    "id": 139,
+    "yo": "kánkán",
+    "en": "Exactly / completely",
+    "category": "Descriptions",
+    "example": "Ó rí bẹ́ẹ̀ kánkán.",
+    "exampleEn": "It is exactly like that."
+  },
+  {
+    "id": 140,
+    "yo": "kúrò",
+    "en": "Move away / remove",
+    "category": "Actions",
+    "example": "Kúrò níbẹ̀.",
+    "exampleEn": "Move away from there."
+  },
+  {
+    "id": 141,
+    "yo": "kún",
+    "en": "Be full / fill",
+    "category": "Actions",
+    "example": "Gilasi náà kún fún omi.",
+    "exampleEn": "The glass is full of water."
+  },
+  {
+    "id": 142,
+    "yo": "kòkòrò",
+    "en": "Insect",
+    "category": "Nature",
+    "example": "Kòkòrò kan wà lórí tábìlì.",
+    "exampleEn": "There is an insect on the table."
+  },
+  {
+    "id": 143,
+    "yo": "kálẹ̀",
+    "en": "Spread out / descend",
+    "category": "Actions",
+    "example": "Kálẹ̀ sí ilẹ̀.",
+    "exampleEn": "Go down to the ground."
+  },
+  {
+    "id": 144,
+    "yo": "ká",
+    "en": "Count / surround",
+    "category": "Actions",
+    "example": "Ká iye àwọn ọmọ náà.",
+    "exampleEn": "Count the number of children."
+  },
+  {
+    "id": 145,
+    "yo": "láàárín",
+    "en": "Among / between",
+    "category": "Everyday",
+    "example": "Ó jókòó láàárín wa.",
+    "exampleEn": "He/she sat among us."
+  },
+  {
+    "id": 146,
+    "yo": "láti",
+    "en": "From / to",
+    "category": "Everyday",
+    "example": "Mo wá láti ilé.",
+    "exampleEn": "I came from home."
+  },
+  {
+    "id": 147,
+    "yo": "lọ",
+    "en": "Go",
+    "category": "Actions",
+    "example": "Mo fẹ́ lọ sí ọjà.",
+    "exampleEn": "I want to go to the market."
+  },
+  {
+    "id": 148,
+    "yo": "lówó",
+    "en": "Have money",
+    "category": "Everyday",
+    "example": "Ó lówó tó.",
+    "exampleEn": "He/she has enough money."
+  },
+  {
+    "id": 149,
+    "yo": "lórí",
+    "en": "On / on top of",
+    "category": "Places",
+    "example": "Ìwé wà lórí tábìlì.",
+    "exampleEn": "The book is on the table."
+  },
+  {
+    "id": 150,
+    "yo": "lẹ́ẹ̀kan",
+    "en": "Once",
+    "category": "Time",
+    "example": "Mo ti lọ síbẹ̀ lẹ́ẹ̀kan.",
+    "exampleEn": "I have been there once."
+  },
+  {
+    "id": 151,
+    "yo": "lẹ́yìn",
+    "en": "Behind / after",
+    "category": "Places",
+    "example": "Ilé náà wà lẹ́yìn ọjà.",
+    "exampleEn": "The house is behind the market."
+  },
+  {
+    "id": 152,
+    "yo": "lẹ́wà",
+    "en": "Beautiful",
+    "category": "Descriptions",
+    "example": "Ọmọ náà lẹ́wà.",
+    "exampleEn": "The child is beautiful."
+  },
+  {
+    "id": 153,
+    "yo": "lónìí",
+    "en": "Today",
+    "category": "Time",
+    "example": "Lónìí ni mo dé.",
+    "exampleEn": "I arrived today."
+  },
+  {
+    "id": 154,
+    "yo": "mẹ́wàá",
+    "en": "Ten",
+    "category": "Numbers",
+    "example": "Mo ra ẹyin mẹ́wàá.",
+    "exampleEn": "I bought ten eggs."
+  },
+  {
+    "id": 155,
+    "yo": "mẹ́ta",
+    "en": "Three",
+    "category": "Numbers",
+    "example": "Mẹ́ta ni wọ́n.",
+    "exampleEn": "There are three of them."
+  },
+  {
+    "id": 156,
+    "yo": "mẹ́rin",
+    "en": "Four",
+    "category": "Numbers",
+    "example": "A ní àga mẹ́rin.",
+    "exampleEn": "We have four chairs."
+  },
+  {
+    "id": 157,
+    "yo": "mẹ́fà",
+    "en": "Six",
+    "category": "Numbers",
+    "example": "Ó ra ìwé mẹ́fà.",
+    "exampleEn": "He/she bought six books."
+  },
+  {
+    "id": 158,
+    "yo": "mẹ́jọ",
+    "en": "Eight",
+    "category": "Numbers",
+    "example": "Àwọn ọmọ mẹ́jọ wà níbẹ̀.",
+    "exampleEn": "There are eight children there."
+  },
+  {
+    "id": 159,
+    "yo": "mẹ́sàn-án",
+    "en": "Nine",
+    "category": "Numbers",
+    "example": "Mẹ́sàn-án ni iye wọn.",
+    "exampleEn": "Their number is nine."
+  },
+  {
+    "id": 160,
+    "yo": "mẹ́jì",
+    "en": "Two",
+    "category": "Numbers",
+    "example": "Mo ní ọmọ méjì.",
+    "exampleEn": "I have two children."
+  },
+  {
+    "id": 161,
+    "yo": "mẹ́kàn",
+    "en": "One",
+    "category": "Numbers",
+    "example": "Mo fẹ́ ẹyọ kan.",
+    "exampleEn": "I want one."
+  },
+  {
+    "id": 162,
+    "yo": "màmá",
+    "en": "Mother / mom",
+    "category": "Family",
+    "example": "Màmá mi wà nílé.",
+    "exampleEn": "My mom is at home."
+  },
+  {
+    "id": 163,
+    "yo": "màmá ńlá",
+    "en": "Grandmother",
+    "category": "Family",
+    "example": "Màmá ńlá mi ń gbé ní abúlé.",
+    "exampleEn": "My grandmother lives in the village."
+  },
+  {
+    "id": 164,
+    "yo": "márùn-ún",
+    "en": "Five",
+    "category": "Numbers",
+    "example": "Mo ní márùn-ún.",
+    "exampleEn": "I have five."
+  },
+  {
+    "id": 165,
+    "yo": "mú",
+    "en": "Take / drink",
+    "category": "Actions",
+    "example": "Mú omi díẹ̀.",
+    "exampleEn": "Drink some water."
+  },
+  {
+    "id": 166,
+    "yo": "múra",
+    "en": "Prepare / be diligent",
+    "category": "Actions",
+    "example": "Múra sílẹ̀ fún ẹ̀kọ́.",
+    "exampleEn": "Prepare for the lesson."
+  },
+  {
+    "id": 167,
+    "yo": "mímọ́",
+    "en": "Holy / sacred",
+    "category": "Values & Feelings",
+    "example": "Ilé náà jẹ́ ibi mímọ́.",
+    "exampleEn": "That place is a sacred place."
+  },
+  {
+    "id": 168,
+    "yo": "mọ̀",
+    "en": "Know",
+    "category": "Actions",
+    "example": "Mo mọ̀ ọ́.",
+    "exampleEn": "I know him/her."
+  },
+  {
+    "id": 169,
+    "yo": "mòye",
+    "en": "Understand",
+    "category": "Communication",
+    "example": "Ṣé o mòye ohun tí mo sọ?",
+    "exampleEn": "Do you understand what I said?"
+  },
+  {
+    "id": 170,
+    "yo": "múra sílẹ̀",
+    "en": "Prepare",
+    "category": "Actions",
+    "example": "Múra sílẹ̀ kí a tó lọ.",
+    "exampleEn": "Prepare before we go."
+  },
+  {
+    "id": 171,
+    "yo": "nǹkan",
+    "en": "Thing",
+    "category": "Everyday",
+    "example": "Nǹkan kan wà nínú àpò.",
+    "exampleEn": "There is something in the bag."
+  },
+  {
+    "id": 172,
+    "yo": "náà",
+    "en": "That / also",
+    "category": "Everyday",
+    "example": "Mo fẹ́ èyí náà.",
+    "exampleEn": "I want that one too."
+  },
+  {
+    "id": 173,
+    "yo": "ní",
+    "en": "Have / at / in",
+    "category": "Everyday",
+    "example": "Mo ní ìwé kan.",
+    "exampleEn": "I have a book."
+  },
+  {
+    "id": 174,
+    "yo": "níbo",
+    "en": "Where",
+    "category": "Communication",
+    "example": "Níbo ni o ń lọ?",
+    "exampleEn": "Where are you going?"
+  },
+  {
+    "id": 175,
+    "yo": "nígbà",
+    "en": "When / time",
+    "category": "Time",
+    "example": "Nígbà wo ni o dé?",
+    "exampleEn": "When did you arrive?"
+  },
+  {
+    "id": 176,
+    "yo": "nígbàgbọ́",
+    "en": "Faith / belief",
+    "category": "Values & Feelings",
+    "example": "Ó nígbàgbọ́ nínú Ọlọ́run.",
+    "exampleEn": "He/she has faith in God."
+  },
+  {
+    "id": 177,
+    "yo": "nínú",
+    "en": "Inside",
+    "category": "Places",
+    "example": "Omi wà nínú ife.",
+    "exampleEn": "There is water inside the cup."
+  },
+  {
+    "id": 178,
+    "yo": "nísinsìnyí",
+    "en": "Now / currently",
+    "category": "Time",
+    "example": "Mo wà nílé nísinsìnyí.",
+    "exampleEn": "I am at home now."
+  },
+  {
+    "id": 179,
+    "yo": "nípa",
+    "en": "About / concerning",
+    "category": "Communication",
+    "example": "A ń sọ̀rọ̀ nípa Yorùbá.",
+    "exampleEn": "We are talking about Yoruba."
+  },
+  {
+    "id": 180,
+    "yo": "nítorí",
+    "en": "Because",
+    "category": "Communication",
+    "example": "Mo dúró nítorí òjò.",
+    "exampleEn": "I stayed because of the rain."
+  },
+  {
+    "id": 181,
+    "yo": "nítorí náà",
+    "en": "Therefore / because of that",
+    "category": "Communication",
+    "example": "Ó rẹ̀ mí, nítorí náà mo sinmi.",
+    "exampleEn": "I am tired, therefore I rested."
+  },
+  {
+    "id": 182,
+    "yo": "nọ́mbà",
+    "en": "Number",
+    "category": "Numbers",
+    "example": "Kọ nọ́mbà rẹ síbí.",
+    "exampleEn": "Write your number here."
+  },
+  {
+    "id": 183,
+    "yo": "oògùn",
+    "en": "Medicine",
+    "category": "Health",
+    "example": "Mo nílò oògùn.",
+    "exampleEn": "I need medicine."
+  },
+  {
+    "id": 184,
+    "yo": "oòrùn",
+    "en": "Sun",
+    "category": "Nature",
+    "example": "Oòrùn ń ràn.",
+    "exampleEn": "The sun is shining."
+  },
+  {
+    "id": 185,
+    "yo": "òṣùpá",
+    "en": "Moon",
+    "category": "Nature",
+    "example": "Òṣùpá lẹ́wà lálẹ́.",
+    "exampleEn": "The moon is beautiful at night."
+  },
+  {
+    "id": 186,
+    "yo": "oko",
+    "en": "Farm",
+    "category": "Places",
+    "example": "Bàbá mi lọ sí oko.",
+    "exampleEn": "My father went to the farm."
+  },
+  {
+    "id": 187,
+    "yo": "ọkọ",
+    "en": "Husband / vehicle",
+    "category": "Family",
+    "example": "Ọkọ rẹ wà nílé.",
+    "exampleEn": "Her husband is at home."
+  },
+  {
+    "id": 188,
+    "yo": "ọmọ",
+    "en": "Child",
+    "category": "Family",
+    "example": "Ọmọ náà ń ṣeré.",
+    "exampleEn": "The child is playing."
+  },
+  {
+    "id": 189,
+    "yo": "ọ̀kan",
+    "en": "One",
+    "category": "Numbers",
+    "example": "Ọ̀kan ṣoṣo ni mo fẹ́.",
+    "exampleEn": "I want only one."
+  },
+  {
+    "id": 190,
+    "yo": "ọ̀rẹ́",
+    "en": "Friend",
+    "category": "People",
+    "example": "Ọ̀rẹ́ mi wá sí ilé.",
+    "exampleEn": "My friend came to the house."
+  },
+  {
+    "id": 191,
+    "yo": "ọlá",
+    "en": "Honor / wealth",
+    "category": "Values & Feelings",
+    "example": "Ọlá ni a fi ń mọ ènìyàn.",
+    "exampleEn": "A person's honor is important."
+  },
+  {
+    "id": 192,
+    "yo": "ọgbọ́n",
+    "en": "Wisdom",
+    "category": "Values & Feelings",
+    "example": "Ọgbọ́n ju agbára lọ.",
+    "exampleEn": "Wisdom is greater than strength."
+  },
+  {
+    "id": 193,
+    "yo": "ọjọ́",
+    "en": "Day",
+    "category": "Time",
+    "example": "Ọjọ́ kan a ó pàdé.",
+    "exampleEn": "One day we will meet."
+  },
+  {
+    "id": 194,
+    "yo": "ọ̀la",
+    "en": "Tomorrow",
+    "category": "Time",
+    "example": "A ó lọ lọ́la.",
+    "exampleEn": "We will go tomorrow."
+  },
+  {
+    "id": 195,
+    "yo": "ọ̀sán",
+    "en": "Afternoon / midday",
+    "category": "Time",
+    "example": "A ó pàdé ní ọ̀sán.",
+    "exampleEn": "We will meet in the afternoon."
+  },
+  {
+    "id": 196,
+    "yo": "ọ̀sán-án",
+    "en": "Orange",
+    "category": "Colors",
+    "example": "Mo fẹ́ àwọ̀ ọ̀sán-án.",
+    "exampleEn": "I like the color orange."
+  },
+  {
+    "id": 197,
+    "yo": "ọ̀nà",
+    "en": "Road / way",
+    "category": "Places",
+    "example": "Ọ̀nà wo ni a máa gbà?",
+    "exampleEn": "Which way will we go?"
+  },
+  {
+    "id": 198,
+    "yo": "ọ̀jà",
+    "en": "Market",
+    "category": "Places",
+    "example": "Mo lọ sí ọ̀jà.",
+    "exampleEn": "I went to the market."
+  },
+  {
+    "id": 199,
+    "yo": "ọ̀bẹ̀",
+    "en": "Soup",
+    "category": "Food",
+    "example": "Ọ̀bẹ̀ náà dùn.",
+    "exampleEn": "The soup is delicious."
+  },
+  {
+    "id": 200,
+    "yo": "ọ̀gẹ̀dẹ̀",
+    "en": "Banana / plantain",
+    "category": "Food",
+    "example": "Mo ra ọ̀gẹ̀dẹ̀ méjì.",
+    "exampleEn": "I bought two bananas."
+  },
+  {
+    "id": 201,
+    "yo": "ọ̀pọ̀",
+    "en": "Many / much",
+    "category": "Descriptions",
+    "example": "Ọ̀pọ̀ ènìyàn wá.",
+    "exampleEn": "Many people came."
+  },
+  {
+    "id": 202,
+    "yo": "ọ̀rọ̀",
+    "en": "Word / matter / speech",
+    "category": "Communication",
+    "example": "Ọ̀rọ̀ rẹ ṣe pàtàkì.",
+    "exampleEn": "Your words are important."
+  },
+  {
+    "id": 203,
+    "yo": "ọ̀run",
+    "en": "Heaven / sky",
+    "category": "Nature",
+    "example": "Àwọ̀sán wà lórí ọ̀run.",
+    "exampleEn": "There are clouds in the sky."
+  },
+  {
+    "id": 204,
+    "yo": "ọ̀tí",
+    "en": "Alcoholic drink",
+    "category": "Food & Drink",
+    "example": "Ó mu ọ̀tí púpọ̀.",
+    "exampleEn": "He/she drank a lot of alcohol."
+  },
+  {
+    "id": 205,
+    "yo": "ọ̀sìn",
+    "en": "Religion / worship",
+    "category": "Values & Feelings",
+    "example": "Ọ̀sìn jẹ́ apá pàtàkì nínú ìgbésí ayé ọ̀pọ̀ ènìyàn.",
+    "exampleEn": "Religion is an important part of many people's lives."
+  },
+  {
+    "id": 206,
+    "yo": "ọ̀gá",
+    "en": "Boss / master",
+    "category": "People",
+    "example": "Ọ̀gá mi wà ní ọ́fíìsì.",
+    "exampleEn": "My boss is in the office."
+  },
+  {
+    "id": 207,
+    "yo": "ọ̀bìnrin",
+    "en": "Woman",
+    "category": "People",
+    "example": "Ọ̀bìnrin náà jẹ́ olùkọ́.",
+    "exampleEn": "The woman is a teacher."
+  },
+  {
+    "id": 208,
+    "yo": "ọkùnrin",
+    "en": "Man",
+    "category": "People",
+    "example": "Ọkùnrin náà ń ṣiṣẹ́.",
+    "exampleEn": "The man is working."
+  },
+  {
+    "id": 209,
+    "yo": "ọkàn",
+    "en": "Heart",
+    "category": "Body",
+    "example": "Ọkàn mi kún fún ayọ̀.",
+    "exampleEn": "My heart is full of joy."
+  },
+  {
+    "id": 210,
+    "yo": "ọ̀wọ́",
+    "en": "Hand",
+    "category": "Body",
+    "example": "Fọ ọwọ́ rẹ.",
+    "exampleEn": "Wash your hands."
+  },
+  {
+    "id": 211,
+    "yo": "ọwọ́",
+    "en": "Hand",
+    "category": "Body",
+    "example": "Ọwọ́ mi ń dun.",
+    "exampleEn": "My hand hurts."
+  },
+  {
+    "id": 212,
+    "yo": "ọ̀wọ̀",
+    "en": "Respect / honor",
+    "category": "Values & Feelings",
+    "example": "A gbọ́dọ̀ bọ̀wọ̀ fún àwọn àgbà.",
+    "exampleEn": "We must respect elders."
+  },
+  {
+    "id": 213,
+    "yo": "ọ̀nà ọ̀fẹ́",
+    "en": "Free way / free access",
+    "category": "Everyday",
+    "example": "Àǹfààní yìí wà lórí ọ̀nà ọ̀fẹ́.",
+    "exampleEn": "This benefit is available for free."
+  },
+  {
+    "id": 214,
+    "yo": "ọ̀bẹ",
+    "en": "Knife",
+    "category": "Home",
+    "example": "Fi ọ̀bẹ náà sílẹ̀.",
+    "exampleEn": "Put the knife down."
+  },
+  {
+    "id": 215,
+    "yo": "ọ̀pá",
+    "en": "Stick / rod",
+    "category": "Everyday",
+    "example": "Ọ̀pá náà gùn.",
+    "exampleEn": "The stick is long."
+  },
+  {
+    "id": 216,
+    "yo": "ọ̀nà abayo",
+    "en": "Way out / escape route",
+    "category": "Places",
+    "example": "A nílò ọ̀nà abayo.",
+    "exampleEn": "We need an escape route."
+  },
+  {
+    "id": 217,
+    "yo": "pupa",
+    "en": "Red",
+    "category": "Colors",
+    "example": "Mo fẹ́ ọkọ̀ ayọ́kẹ́lẹ́ pupa.",
+    "exampleEn": "I want a red car."
+  },
+  {
+    "id": 218,
+    "yo": "pẹ́",
+    "en": "Long time / late",
+    "category": "Time",
+    "example": "Ó pẹ́ tí mo ti rí ọ.",
+    "exampleEn": "It has been a long time since I saw you."
+  },
+  {
+    "id": 219,
+    "yo": "pẹ̀",
+    "en": "Be late / delay",
+    "category": "Time",
+    "example": "Má pẹ̀ sí ẹ̀kọ́.",
+    "exampleEn": "Don't be late for class."
+  },
+  {
+    "id": 220,
+    "yo": "pàdé",
+    "en": "Meet",
+    "category": "Actions",
+    "example": "A ó pàdé lọ́la.",
+    "exampleEn": "We will meet tomorrow."
+  },
+  {
+    "id": 221,
+    "yo": "pàtàkì",
+    "en": "Important",
+    "category": "Descriptions",
+    "example": "Àkókò jẹ́ pàtàkì.",
+    "exampleEn": "Time is important."
+  },
+  {
+    "id": 222,
+    "yo": "pín",
+    "en": "Divide / share",
+    "category": "Actions",
+    "example": "Pín oúnjẹ náà sí méjì.",
+    "exampleEn": "Divide the food into two."
+  },
+  {
+    "id": 223,
+    "yo": "pàṣípààrọ̀",
+    "en": "Change / exchange",
+    "category": "Actions",
+    "example": "A lè pàṣípààrọ̀ ẹ̀bùn.",
+    "exampleEn": "We can exchange gifts."
+  },
+  {
+    "id": 224,
+    "yo": "pèsè",
+    "en": "Prepare / provide",
+    "category": "Actions",
+    "example": "Ó pèsè oúnjẹ fún wa.",
+    "exampleEn": "He/she prepared food for us."
+  },
+  {
+    "id": 225,
+    "yo": "pè",
+    "en": "Call",
+    "category": "Communication",
+    "example": "Pè mí nígbà tí o bá dé.",
+    "exampleEn": "Call me when you arrive."
+  },
+  {
+    "id": 226,
+    "yo": "pẹ̀lẹ́pẹ̀lẹ́",
+    "en": "Gently / carefully",
+    "category": "Descriptions",
+    "example": "Máa rìn pẹ̀lẹ́pẹ̀lẹ́.",
+    "exampleEn": "Walk carefully."
+  },
+  {
+    "id": 227,
+    "yo": "rìn",
+    "en": "Walk",
+    "category": "Actions",
+    "example": "Mo fẹ́ rìn sí ọjà.",
+    "exampleEn": "I want to walk to the market."
+  },
+  {
+    "id": 228,
+    "yo": "rí",
+    "en": "See",
+    "category": "Actions",
+    "example": "Mo rí ọrẹ́ mi.",
+    "exampleEn": "I saw my friend."
+  },
+  {
+    "id": 229,
+    "yo": "ra",
+    "en": "Buy",
+    "category": "Shopping",
+    "example": "Mo fẹ́ ra ìwé.",
+    "exampleEn": "I want to buy a book."
+  },
+  {
+    "id": 230,
+    "yo": "rán",
+    "en": "Send",
+    "category": "Communication",
+    "example": "Ránṣẹ́ sí mi.",
+    "exampleEn": "Send me a message."
+  },
+  {
+    "id": 231,
+    "yo": "rẹ́rìn-ín",
+    "en": "Smile / laugh",
+    "category": "Actions",
+    "example": "Ó rẹ́rìn-ín sí mi.",
+    "exampleEn": "He/she smiled at me."
+  },
+  {
+    "id": 232,
+    "yo": "rẹ̀",
+    "en": "Be tired",
+    "category": "Actions",
+    "example": "Mo rẹ̀ gan-an.",
+    "exampleEn": "I am very tired."
+  },
+  {
+    "id": 233,
+    "yo": "rẹwà",
+    "en": "Be beautiful",
+    "category": "Descriptions",
+    "example": "Ọmọ náà rẹwà.",
+    "exampleEn": "The child is beautiful."
+  },
+  {
+    "id": 234,
+    "yo": "rò",
+    "en": "Think",
+    "category": "Actions",
+    "example": "Mo ń rò nípa rẹ.",
+    "exampleEn": "I am thinking about you."
+  },
+  {
+    "id": 235,
+    "yo": "rànlọ́wọ́",
+    "en": "Help",
+    "category": "Actions",
+    "example": "Jọ̀wọ́, ràn mí lọ́wọ́.",
+    "exampleEn": "Please help me."
+  },
+  {
+    "id": 236,
+    "yo": "rọ̀rùn",
+    "en": "Easy / gentle",
+    "category": "Descriptions",
+    "example": "Ẹ̀kọ́ náà rọ̀rùn.",
+    "exampleEn": "The lesson is easy."
+  },
+  {
+    "id": 237,
+    "yo": "sọ",
+    "en": "Say / speak",
+    "category": "Communication",
+    "example": "Sọ ọ̀rọ̀ náà lẹ́ẹ̀kansi.",
+    "exampleEn": "Say the word again."
+  },
+  {
+    "id": 238,
+    "yo": "sọ̀rọ̀",
+    "en": "Speak / talk",
+    "category": "Communication",
+    "example": "Mo fẹ́ sọ̀rọ̀ Yorùbá.",
+    "exampleEn": "I want to speak Yoruba."
+  },
+  {
+    "id": 239,
+    "yo": "sùn",
+    "en": "Sleep",
+    "category": "Actions",
+    "example": "Ọmọ náà ń sùn.",
+    "exampleEn": "The child is sleeping."
+  },
+  {
+    "id": 240,
+    "yo": "sáré",
+    "en": "Run",
+    "category": "Actions",
+    "example": "Má sáré lórí ọ̀nà.",
+    "exampleEn": "Don't run on the road."
+  },
+  {
+    "id": 241,
+    "yo": "ṣe",
+    "en": "Do / make",
+    "category": "Actions",
+    "example": "Kí ni o ń ṣe?",
+    "exampleEn": "What are you doing?"
+  },
+  {
+    "id": 242,
+    "yo": "ṣé",
+    "en": "Do you? / is it?",
+    "category": "Communication",
+    "example": "Ṣé o wà nílé?",
+    "exampleEn": "Are you at home?"
+  },
+  {
+    "id": 243,
+    "yo": "ṣeré",
+    "en": "Play",
+    "category": "Actions",
+    "example": "Àwọn ọmọ ń ṣeré.",
+    "exampleEn": "The children are playing."
+  },
+  {
+    "id": 244,
+    "yo": "ṣí",
+    "en": "Open",
+    "category": "Actions",
+    "example": "Ṣí ilẹ̀kùn.",
+    "exampleEn": "Open the door."
+  },
+  {
+    "id": 245,
+    "yo": "ṣòro",
+    "en": "Difficult",
+    "category": "Descriptions",
+    "example": "Ìbéèrè náà ṣòro.",
+    "exampleEn": "The question is difficult."
+  },
+  {
+    "id": 246,
+    "yo": "ṣùgbọ́n",
+    "en": "But",
+    "category": "Communication",
+    "example": "Mo fẹ́ lọ, ṣùgbọ́n òjò ń rọ̀.",
+    "exampleEn": "I want to go, but it is raining."
+  },
+  {
+    "id": 247,
+    "yo": "ṣì",
+    "en": "Still / yet",
+    "category": "Everyday",
+    "example": "Ó ṣì ń sùn.",
+    "exampleEn": "He/she is still sleeping."
+  },
+  {
+    "id": 248,
+    "yo": "ṣàkóso",
+    "en": "Govern / manage",
+    "category": "Actions",
+    "example": "Ó mọ bí a ṣe ń ṣàkóso ẹgbẹ́.",
+    "exampleEn": "He/she knows how to manage a group."
+  },
+  {
+    "id": 249,
+    "yo": "ṣàlàyé",
+    "en": "Explain",
+    "category": "Communication",
+    "example": "Jọ̀wọ́, ṣàlàyé rẹ̀ fún mi.",
+    "exampleEn": "Please explain it to me."
+  },
+  {
+    "id": 250,
+    "yo": "ṣọ́ra",
+    "en": "Be careful",
+    "category": "Everyday",
+    "example": "Ṣọ́ra ní ọ̀nà.",
+    "exampleEn": "Be careful on the road."
+  },
+  {
+    "id": 251,
+    "yo": "ṣàbẹ̀wò",
+    "en": "Visit",
+    "category": "Actions",
+    "example": "Mo fẹ́ ṣàbẹ̀wò sí ọ̀rẹ́ mi.",
+    "exampleEn": "I want to visit my friend."
+  },
+  {
+    "id": 252,
+    "yo": "tí",
+    "en": "That / who / if",
+    "category": "Communication",
+    "example": "Mo mọ̀ pé o wà nílé.",
+    "exampleEn": "I know that you are at home."
+  },
+  {
+    "id": 253,
+    "yo": "tóbi",
+    "en": "Big / important",
+    "category": "Descriptions",
+    "example": "Ilé náà tóbi.",
+    "exampleEn": "The house is big."
+  },
+  {
+    "id": 254,
+    "yo": "títí",
+    "en": "Forever / until",
+    "category": "Time",
+    "example": "A ó wà títí láé.",
+    "exampleEn": "We will remain forever."
+  },
+  {
+    "id": 255,
+    "yo": "tẹ́",
+    "en": "Press / step on",
+    "category": "Actions",
+    "example": "Tẹ bọ́tìnì náà.",
+    "exampleEn": "Press that button."
+  },
+  {
+    "id": 256,
+    "yo": "tẹ́lẹ̀",
+    "en": "Before / previously",
+    "category": "Time",
+    "example": "Mo ti rí i tẹ́lẹ̀.",
+    "exampleEn": "I have seen it before."
+  },
+  {
+    "id": 257,
+    "yo": "tẹ̀síwájú",
+    "en": "Continue / move forward",
+    "category": "Actions",
+    "example": "Tẹ̀síwájú pẹ̀lú ẹ̀kọ́ rẹ.",
+    "exampleEn": "Continue with your studies."
+  },
+  {
+    "id": 258,
+    "yo": "tán",
+    "en": "Finish / be finished",
+    "category": "Actions",
+    "example": "Oúnjẹ náà ti tán.",
+    "exampleEn": "The food is finished."
+  },
+  {
+    "id": 259,
+    "yo": "tẹ́wọ́gbà",
+    "en": "Accept / welcome",
+    "category": "Actions",
+    "example": "A tẹ́wọ́gbà àwọn àlejò.",
+    "exampleEn": "We welcomed the guests."
+  },
+  {
+    "id": 260,
+    "yo": "títọ́",
+    "en": "Correctness / truth",
+    "category": "Values & Feelings",
+    "example": "A fẹ́ mọ títọ́ ọ̀rọ̀ náà.",
+    "exampleEn": "We want to know the truth of the matter."
+  },
+  {
+    "id": 261,
+    "yo": "tún",
+    "en": "Again / repair",
+    "category": "Actions",
+    "example": "Jọ̀wọ́, tún sọ ọ́.",
+    "exampleEn": "Please say it again."
+  },
+  {
+    "id": 262,
+    "yo": "tú",
+    "en": "Pour / explain",
+    "category": "Actions",
+    "example": "Tú omi sínú ife.",
+    "exampleEn": "Pour water into the cup."
+  },
+  {
+    "id": 263,
+    "yo": "tura",
+    "en": "Refresh / cool off",
+    "category": "Actions",
+    "example": "Jẹ́ kí a tura díẹ̀.",
+    "exampleEn": "Let us cool off a little."
+  },
+  {
+    "id": 264,
+    "yo": "tábìlì",
+    "en": "Table",
+    "category": "Home",
+    "example": "Ìwé wà lórí tábìlì.",
+    "exampleEn": "The book is on the table."
+  },
+  {
+    "id": 265,
+    "yo": "u",
+    "en": "You (plural / formal)",
+    "category": "Communication",
+    "example": "Ṣé u wà nílé?",
+    "exampleEn": "Are you at home?"
+  },
+  {
+    "id": 266,
+    "yo": "ú",
+    "en": "Drink",
+    "category": "Actions",
+    "example": "Ú omi díẹ̀.",
+    "exampleEn": "Drink some water."
+  },
+  {
+    "id": 267,
+    "yo": "úpọ̀",
+    "en": "Abundance / plenty",
+    "category": "Descriptions",
+    "example": "Oúnjẹ wà ní úpọ̀.",
+    "exampleEn": "There is plenty of food."
+  },
+  {
+    "id": 268,
+    "yo": "wà",
+    "en": "Be / exist",
+    "category": "Everyday",
+    "example": "Mo wà níbí.",
+    "exampleEn": "I am here."
+  },
+  {
+    "id": 269,
+    "yo": "wá",
+    "en": "Come / look for",
+    "category": "Actions",
+    "example": "Wá síbí.",
+    "exampleEn": "Come here."
+  },
+  {
+    "id": 270,
+    "yo": "wọlé",
+    "en": "Enter the house",
+    "category": "Actions",
+    "example": "Wọlé kí o jókòó.",
+    "exampleEn": "Come inside and sit down."
+  },
+  {
+    "id": 271,
+    "yo": "wọ̀",
+    "en": "Wear",
+    "category": "Clothing",
+    "example": "Mo wọ̀ aṣọ tuntun.",
+    "exampleEn": "I am wearing new clothes."
+  },
+  {
+    "id": 272,
+    "yo": "wẹ̀",
+    "en": "Bathe / wash",
+    "category": "Actions",
+    "example": "Mo lọ wẹ̀.",
+    "exampleEn": "I am going to bathe."
+  },
+  {
+    "id": 273,
+    "yo": "wẹ́",
+    "en": "Wash",
+    "category": "Actions",
+    "example": "Wẹ ọwọ́ rẹ.",
+    "exampleEn": "Wash your hands."
+  },
+  {
+    "id": 274,
+    "yo": "wúrà",
+    "en": "Gold",
+    "category": "Everyday",
+    "example": "Orùka náà jẹ́ wúrà.",
+    "exampleEn": "The ring is gold."
+  },
+  {
+    "id": 275,
+    "yo": "wí",
+    "en": "Say / speak",
+    "category": "Communication",
+    "example": "Ó wí pé ó máa wá.",
+    "exampleEn": "He/she said that he/she would come."
+  },
+  {
+    "id": 276,
+    "yo": "wákàtí",
+    "en": "Hour / time",
+    "category": "Time",
+    "example": "Mo dúró fún wákàtí kan.",
+    "exampleEn": "I waited for one hour."
+  },
+  {
+    "id": 277,
+    "yo": "wà níbẹ̀",
+    "en": "Be there",
+    "category": "Places",
+    "example": "Mo mọ̀ pé ó wà níbẹ̀.",
+    "exampleEn": "I know that he/she is there."
+  },
+  {
+    "id": 278,
+    "yo": "yàtọ̀",
+    "en": "Different",
+    "category": "Descriptions",
+    "example": "Ọ̀rọ̀ yìí yàtọ̀.",
+    "exampleEn": "This matter is different."
+  },
+  {
+    "id": 279,
+    "yo": "yàn",
+    "en": "Choose",
+    "category": "Actions",
+    "example": "Yàn èyí tí o fẹ́.",
+    "exampleEn": "Choose the one you want."
+  },
+  {
+    "id": 280,
+    "yo": "yọ̀",
+    "en": "Be happy / rejoice",
+    "category": "Values & Feelings",
+    "example": "Mo yọ̀ pé o dé.",
+    "exampleEn": "I am happy that you arrived."
+  },
+  {
+    "id": 281,
+    "yo": "yára",
+    "en": "Fast / quickly",
+    "category": "Descriptions",
+    "example": "Ó ń sáré yára.",
+    "exampleEn": "He/she is running quickly."
+  },
+  {
+    "id": 282,
+    "yo": "yẹ",
+    "en": "Be appropriate / deserve",
+    "category": "Descriptions",
+    "example": "Ó yẹ kí a lọ.",
+    "exampleEn": "We should go."
+  },
+  {
+    "id": 283,
+    "yo": "yẹ̀",
+    "en": "Should / ought to",
+    "category": "Everyday",
+    "example": "O yẹ̀ kí o kọ́ ẹ̀kọ́.",
+    "exampleEn": "You should study."
+  },
+  {
+    "id": 284,
+    "yo": "yọ̀nda",
+    "en": "Permit / allow",
+    "category": "Actions",
+    "example": "Jọ̀wọ́, yọ̀nda fún mi.",
+    "exampleEn": "Please allow me."
+  },
+  {
+    "id": 285,
+    "yo": "yí",
+    "en": "Turn",
+    "category": "Actions",
+    "example": "Yí sí ọ̀tún.",
+    "exampleEn": "Turn right."
+  },
+  {
+    "id": 286,
+    "yo": "yípo",
+    "en": "Turn around / circle",
+    "category": "Actions",
+    "example": "Yípo kí o padà.",
+    "exampleEn": "Turn around and come back."
+  },
+  {
+    "id": 287,
+    "yo": "yíyan",
+    "en": "Choosing / selection",
+    "category": "Everyday",
+    "example": "Yíyan rẹ dára.",
+    "exampleEn": "Your choice is good."
+  },
+  {
+    "id": 288,
+    "yo": "àbúrò",
+    "en": "Younger sibling",
+    "category": "Family",
+    "example": "Àbúrò mi ń lọ sí ilé-ẹ̀kọ́.",
+    "exampleEn": "My younger sibling is going to school."
+  },
+  {
+    "id": 289,
+    "yo": "àgbàdo",
+    "en": "Corn / maize",
+    "category": "Food",
+    "example": "Àgbàdo náà dùn.",
+    "exampleEn": "The corn is delicious."
+  },
+  {
+    "id": 290,
+    "yo": "àgbẹ̀",
+    "en": "Farmer",
+    "category": "People",
+    "example": "Àgbẹ̀ náà lọ sí oko.",
+    "exampleEn": "The farmer went to the farm."
+  },
+  {
+    "id": 291,
+    "yo": "àgọ́",
+    "en": "Tent / shelter",
+    "category": "Places",
+    "example": "A jókòó nínú àgọ́.",
+    "exampleEn": "We sat inside the tent."
+  },
+  {
+    "id": 292,
+    "yo": "àkàrà",
+    "en": "Bean cake",
+    "category": "Food",
+    "example": "Àkàrà náà gbóná.",
+    "exampleEn": "The bean cake is hot."
+  },
+  {
+    "id": 293,
+    "yo": "àpá",
+    "en": "Arm",
+    "category": "Body",
+    "example": "Àpá mi ń dun.",
+    "exampleEn": "My arm hurts."
+  },
+  {
+    "id": 294,
+    "yo": "àṣírí",
+    "en": "Secret",
+    "category": "Communication",
+    "example": "Má sọ àṣírí mi fún ẹnikẹ́ni.",
+    "exampleEn": "Don't tell my secret to anyone."
+  },
+  {
+    "id": 295,
+    "yo": "bàtà",
+    "en": "Shoes",
+    "category": "Clothing",
+    "example": "Bàtà mi wà nílẹ̀.",
+    "exampleEn": "My shoes are on the floor."
+  },
+  {
+    "id": 296,
+    "yo": "bẹ́ẹ̀",
+    "en": "Like that / so",
+    "category": "Everyday",
+    "example": "Má ṣe bẹ́ẹ̀.",
+    "exampleEn": "Don't do that."
+  },
+  {
+    "id": 297,
+    "yo": "dídùn",
+    "en": "Delicious / pleasant",
+    "category": "Descriptions",
+    "example": "Oúnjẹ náà dùn gan-an.",
+    "exampleEn": "The food is very delicious."
+  },
+  {
+    "id": 298,
+    "yo": "ẹ̀kọ́ọ́",
+    "en": "Learning / study",
+    "category": "Education",
+    "example": "Ẹ̀kọ́ọ́ Yorùbá ń dùn mí.",
+    "exampleEn": "I enjoy learning Yoruba."
+  },
+  {
+    "id": 299,
+    "yo": "fìdí",
+    "en": "Base / foundation",
+    "category": "Everyday",
+    "example": "A gbé ilé náà kalẹ̀ lórí fìdí tó lágbára.",
+    "exampleEn": "We built the house on a strong foundation."
+  },
+  {
+    "id": 300,
+    "yo": "gàárì",
+    "en": "Garri",
+    "category": "Food",
+    "example": "Mo fẹ́ mu gàárì pẹ̀lú omi.",
+    "exampleEn": "I want to drink garri with water."
+  },
+  {
+    "id": 301,
+    "yo": "ìdí",
+    "en": "Reason / bottom",
+    "category": "Everyday",
+    "example": "Kí ni ìdí rẹ?",
+    "exampleEn": "What is your reason?"
+  },
+  {
+    "id": 302,
+    "yo": "ìmọ̀",
+    "en": "Knowledge",
+    "category": "Education",
+    "example": "Ìmọ̀ ṣe pàtàkì.",
+    "exampleEn": "Knowledge is important."
+  },
+  {
+    "id": 303,
+    "yo": "ìwà",
+    "en": "Character / behavior",
+    "category": "Values & Feelings",
+    "example": "Ìwà rere ṣe pàtàkì.",
+    "exampleEn": "Good character is important."
+  },
+  {
+    "id": 304,
+    "yo": "ìyẹ̀",
+    "en": "Feather",
+    "category": "Nature",
+    "example": "Mo rí ìyẹ̀ ẹyẹ kan.",
+    "exampleEn": "I saw a bird feather."
+  },
+  {
+    "id": 305,
+    "yo": "jùlọ",
+    "en": "Most / especially",
+    "category": "Descriptions",
+    "example": "Èyí ni mo fẹ́ràn jùlọ.",
+    "exampleEn": "This is what I like most."
+  },
+  {
+    "id": 306,
+    "yo": "kàǹkà",
+    "en": "Quantity / amount",
+    "category": "Everyday",
+    "example": "Kàǹkà omi tó wà nínú ìgò náà pọ̀.",
+    "exampleEn": "The amount of water in the bottle is large."
+  },
+  {
+    "id": 307,
+    "yo": "márùn-ún",
+    "en": "Five",
+    "category": "Numbers",
+    "example": "Márùn-ún ni iye àwọn ìwé náà.",
+    "exampleEn": "There are five books."
+  },
+  {
+    "id": 308,
+    "yo": "ọ̀rẹ́bìnrin",
+    "en": "Female friend",
+    "category": "People",
+    "example": "Ọ̀rẹ́bìnrin mi ń kọ́ Yorùbá.",
+    "exampleEn": "My female friend is learning Yoruba."
+  },
+  {
+    "id": 309,
+    "yo": "ọ̀rẹ́kùnrin",
+    "en": "Male friend",
+    "category": "People",
+    "example": "Ọ̀rẹ́kùnrin mi wà níbí.",
+    "exampleEn": "My male friend is here."
+  },
+  {
+    "id": 310,
+    "yo": "pẹ̀lú",
+    "en": "With / also",
+    "category": "Everyday",
+    "example": "Mo fẹ́ lọ pẹ̀lú rẹ.",
+    "exampleEn": "I want to go with you."
+  },
+  {
+    "id": 311,
+    "yo": "rere",
+    "en": "Good / goodness",
+    "category": "Descriptions",
+    "example": "Ó jẹ́ ènìyàn rere.",
+    "exampleEn": "He/she is a good person."
+  },
+  {
+    "id": 312,
+    "yo": "sì",
+    "en": "And / also",
+    "category": "Communication",
+    "example": "Mo lọ sí ọjà, mo sì ra oúnjẹ.",
+    "exampleEn": "I went to the market and bought food."
+  },
+  {
+    "id": 313,
+    "yo": "títọ́jú",
+    "en": "Care / looking after",
+    "category": "Actions",
+    "example": "Títọ́jú ọmọ jẹ́ iṣẹ́ ńlá.",
+    "exampleEn": "Taking care of a child is a big responsibility."
+  },
+  {
+    "id": 314,
+    "yo": "wíwá",
+    "en": "Coming / searching",
+    "category": "Actions",
+    "example": "Wíwá ìmọ̀ jẹ́ ohun rere.",
+    "exampleEn": "Seeking knowledge is a good thing."
+  },
+  {
+    "id": 315,
+    "yo": "yàrá",
+    "en": "Room",
+    "category": "Home",
+    "example": "Mo wà nínú yàrá mi.",
+    "exampleEn": "I am in my room."
+  },
+  {
+    "id": 316,
+    "yo": "yà",
+    "en": "Split / separate",
+    "category": "Actions",
+    "example": "Má yà wọn sọ́tọ̀.",
+    "exampleEn": "Don't separate them."
+  },
+  {
+    "id": 317,
+    "yo": "ṣù",
+    "en": "Month",
+    "category": "Time",
+    "example": "Mo máa lọ síbẹ̀ lọ́wọ́lọ́wọ́ ní gbogbo oṣù.",
+    "exampleEn": "I go there every month."
+  },
+  {
+    "id": 318,
+    "yo": "ọ̀sẹ̀",
+    "en": "Week",
+    "category": "Time",
+    "example": "A ó pàdé lọ́sẹ̀ tó ń bọ̀.",
+    "exampleEn": "We will meet next week."
+  },
+  {
+    "id": 319,
+    "yo": "òní",
+    "en": "Today",
+    "category": "Time",
+    "example": "Òní ni ọjọ́ ìbí mi.",
+    "exampleEn": "Today is my birthday."
+  },
+  {
+    "id": 320,
+    "yo": "alẹ́",
+    "en": "Night / evening",
+    "category": "Time",
+    "example": "A máa ń sùn ní alẹ́.",
+    "exampleEn": "We sleep at night."
+  }
+]

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contribute — Sọ̀rọ̀ Sókè</title>
+  <meta
+    name="description"
+    content="Suggest Yoruba words for the Sọ̀rọ̀ Sókè dictionary."
+  />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#171827">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sọ̀rọ̀ Sókè">
+</head>
+
+<body data-page="contribute">
+
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark">
+  <img
+    id="brandIcon"
+    src="./icon-512.png"
+    alt=""
+    width="52"
+    height="52"
+  />
+</span>
+      <span>
+        <strong>Sọ̀rọ̀ Sókè</strong>
+        <small>Yoruba language & pronunciation</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="./index.html">Speak</a>
+      <a href="./dictionary.html">Dictionary</a>
+      <a href="./learn.html">Learn</a>
+      <a class="active" href="./contribute.html">Contribute</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="page-hero section-shell">
+      <p class="eyebrow">04 · Contribute</p>
+
+      <h1>Help the dictionary<br /><em>keep growing.</em></h1>
+
+      <p>
+        Know a Yoruba word that should be here? Suggest it. New entries
+        should be reviewed and verified before they become part of the
+        public dictionary.
+      </p>
+    </section>
+
+
+    <section class="section-shell contribution-layout">
+
+      <div class="contribution-copy">
+
+        <p class="eyebrow">How it works</p>
+
+        <h2>Suggest → verify → share.</h2>
+
+        <div class="process-list">
+
+          <div class="process-item">
+            <span>01</span>
+            <div>
+              <strong>Suggest</strong>
+              <p>
+                Send a Yoruba word and, if you know it, its English meaning.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <span>02</span>
+            <div>
+              <strong>Review</strong>
+              <p>
+                The spelling and meaning should be checked before publication.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <span>03</span>
+            <div>
+              <strong>Verify</strong>
+              <p>
+                Tone marks and Yoruba-specific letters should be preserved.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <span>04</span>
+            <div>
+              <strong>Add</strong>
+              <p>
+                Verified entries can then become available to everyone.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="contribution-form-card">
+
+        <div class="form-header">
+          <p class="eyebrow">Word suggestion</p>
+          <h2>Suggest a word</h2>
+        </div>
+
+        <form id="suggestionForm">
+
+          <label for="suggestedYoruba">
+            Yoruba word
+          </label>
+
+          <input
+            id="suggestedYoruba"
+            type="text"
+            placeholder="e.g. ìfẹ́"
+            required
+            spellcheck="false"
+          />
+
+
+          <label for="suggestedEnglish">
+            English meaning
+          </label>
+
+          <input
+            id="suggestedEnglish"
+            type="text"
+            placeholder="e.g. Love"
+            required
+          />
+
+
+          <label for="suggestedCategory">
+            Category
+          </label>
+
+          <select id="suggestedCategory">
+            <option>Greetings</option>
+            <option>Family</option>
+            <option>Numbers</option>
+            <option>Body</option>
+            <option>Nature</option>
+            <option>Food</option>
+            <option>Colors</option>
+            <option>Time</option>
+            <option>Values & feelings</option>
+            <option>Places</option>
+            <option>Other</option>
+          </select>
+
+
+          <label for="suggestedNote">
+            Additional note <span>(optional)</span>
+          </label>
+
+          <textarea
+            id="suggestedNote"
+            rows="4"
+            placeholder="Anything helpful about the spelling, usage, or pronunciation…"
+          ></textarea>
+
+
+          <button
+            class="button button-primary button-full"
+            type="submit"
+          >
+            Submit suggestion
+          </button>
+
+        </form>
+
+        <div
+          id="suggestionStatus"
+          class="form-status"
+          aria-live="polite"
+        ></div>
+
+        <p class="local-warning">
+          <strong>For now:</strong>
+          suggestions are stored locally in this browser. They are not yet
+          automatically submitted to a public database.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+  <div class="section-shell footer-inner">
+
+    <div class="footer-brand">
+      <strong>Sọ̀rọ̀ Sókè</strong>
+      <p>Speak it. Hear it. Learn it.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="./index.html">Speak</a>
+      <a href="./dictionary.html">Dictionary</a>
+      <a href="./learn.html">Learn</a>
+      <a href="./contribute.html">Contribute</a>
+    </div>
+
+    <div class="footer-install">
+      <button id="installAppBtn" class="install-app-btn" hidden>
+        📱 Install Sọ̀rọ̀ Sókè
+      </button>
+    </div>
+
+    <div class="footer-credit">
+      <p>Made by Pípòlòláolúwà</p>
+    </div>
+
+  </div>
+</footer>
+
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

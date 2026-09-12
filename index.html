@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sọ̀rọ̀ Sókè — Yoruba Language & Pronunciation</title>
+  <meta
+    name="description"
+    content="Sọ̀rọ̀ Sókè is a free Yoruba pronunciation and language-learning tool."
+  />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#171827">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sọ̀rọ̀ Sókè">
+</head>
+
+<body data-page="home">
+
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="Sọ̀rọ̀ Sókè home">
+      <span class="brand-mark">
+  <img
+    id="brandIcon"
+    src="./icon-512.png"
+    alt=""
+    width="52"
+    height="52"
+  />
+</span>
+      <span>
+        <strong>Sọ̀rọ̀ Sókè</strong>
+        <small>Yoruba language & pronunciation</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a class="active" href="./index.html">Speak</a>
+      <a href="./dictionary.html">Dictionary</a>
+      <a href="./learn.html">Learn</a>
+      <a href="./contribute.html">Contribute</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Yoruba language & pronunciation</p>
+
+        <h1>Speak it.<br />Hear it.<br /><em>Learn it.</em></h1>
+
+        <p class="hero-lead">
+          Type Yoruba, hear it spoken, and learn the writing behind the words.
+          Built as a free resource for anyone, anywhere.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#speak">
+            Start speaking
+          </a>
+
+          <a class="button button-secondary" href="./learn.html">
+            Learn Yoruba
+          </a>
+        </div>
+
+        <p class="free-note">A free tool for anyone, anywhere.</p>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-label">Try a Yoruba word</div>
+
+        <div class="hero-word">ẹ ṣé</div>
+
+        <div class="hero-meaning">Thank you</div>
+
+        <button
+          class="listen-button"
+          type="button"
+          data-speak="ẹ ṣé"
+        >
+          <span>🔊</span>
+          Hear “ẹ ṣé”
+        </button>
+
+        <div class="hero-decoration">
+          <span>ẹ</span>
+          <span>ṣ</span>
+          <span>é</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SPEAK -->
+    <section id="speak" class="section-shell section-space">
+      <div class="section-heading">
+        <p class="eyebrow">01 · Speak</p>
+        <h2>Put Yoruba into words.</h2>
+        <p>
+          Enter a Yoruba word, phrase, or sentence. If the spelling exists
+          in our verified dictionary, we'll show its meaning too.
+        </p>
+      </div>
+
+      <div class="speak-layout">
+
+        <div class="speak-panel">
+          <label for="yorubaText">Yoruba text</label>
+
+          <textarea
+            id="yorubaText"
+            rows="5"
+            placeholder="Type something in Yoruba…"
+            spellcheck="false"
+          ></textarea>
+
+          <div class="input-actions">
+            <button
+              id="speakButton"
+              class="button button-primary"
+              type="button"
+            >
+              🔊 Hear pronunciation
+            </button>
+
+            <button
+              id="clearButton"
+              class="button button-quiet"
+              type="button"
+            >
+              Clear
+            </button>
+          </div>
+
+          <div id="status" class="status" aria-live="polite">
+            Ready.
+          </div>
+        </div>
+
+
+        <aside id="resultCard" class="result-card">
+          <div class="result-label">Your word</div>
+
+          <div id="resultWord" class="result-word">
+            —
+          </div>
+
+          <div id="resultMeaning" class="result-meaning">
+            Type a Yoruba word to see its meaning.
+          </div>
+
+          <div id="resultNote" class="result-note">
+            Dictionary meanings are only shown for exact verified entries.
+          </div>
+
+          <button
+            id="favoriteCurrent"
+            class="favorite-button"
+            type="button"
+            hidden
+          >
+            ♡ Save word
+          </button>
+        </aside>
+
+      </div>
+    </section>
+
+
+    <!-- EXPLORE -->
+    <section class="section-shell section-space">
+      <div class="section-heading centered">
+        <p class="eyebrow">Explore</p>
+        <h2>More than pronunciation.</h2>
+        <p>
+          Sọ̀rọ̀ Sókè connects pronunciation with the writing, meaning,
+          and cultural details behind Yoruba words.
+        </p>
+      </div>
+
+      <div class="explore-grid">
+
+        <a class="explore-card" href="./dictionary.html">
+          <span class="explore-number">01</span>
+          <h3>Dictionary</h3>
+          <p>
+            Explore verified Yoruba words, meanings, tone marks,
+            special letters, and pronunciation.
+          </p>
+          <span class="card-link">Explore dictionary →</span>
+        </a>
+
+        <a class="explore-card" href="./learn.html">
+          <span class="explore-number">02</span>
+          <h3>Learn Yoruba</h3>
+          <p>
+            Learn about tones, Ẹ, Ọ, Ṣ, and why the way Yoruba
+            is written matters.
+          </p>
+          <span class="card-link">Start learning →</span>
+        </a>
+
+        <a class="explore-card" href="./contribute.html">
+          <span class="explore-number">03</span>
+          <h3>Contribute</h3>
+          <p>
+            Suggest Yoruba words that could become part of the
+            growing verified dictionary.
+          </p>
+          <span class="card-link">Contribute →</span>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+  <div class="section-shell footer-inner">
+
+    <div class="footer-brand">
+      <strong>Sọ̀rọ̀ Sókè</strong>
+      <p>Speak it. Hear it. Learn it.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="./index.html">Speak</a>
+      <a href="./dictionary.html">Dictionary</a>
+      <a href="./learn.html">Learn</a>
+      <a href="./contribute.html">Contribute</a>
+    </div>
+
+    <div class="footer-install">
+      <button id="installAppBtn" class="install-app-btn" hidden>
+        📱 Install Sọ̀rọ̀ Sókè
+      </button>
+    </div>
+
+    <div class="footer-credit">
+      <p>Made by Pípòlòláolúwà</p>
+    </div>
+
+  </div>
+</footer>
+
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

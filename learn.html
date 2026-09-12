@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+
+  <title>Learn Yoruba — Sọ̀rọ̀ Sókè</title>
+
+  <meta
+    name="description"
+    content="Learn Yoruba step by step with Sọ̀rọ̀ Sókè."
+  />
+
+  <meta name="theme-color" content="#171827" />
+
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <style>
+    .learn-hub {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 80px;
+    }
+
+    .learn-hero {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 32px;
+      padding: 42px 34px;
+      border-radius: 28px;
+      background:
+        radial-gradient(circle at 85% 20%, rgba(255,255,255,.12), transparent 28%),
+        linear-gradient(135deg, #171827, #292b45);
+      color: #fff;
+      box-shadow: 0 20px 50px rgba(23, 24, 39, .14);
+    }
+
+    .learn-hero::after {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      right: -80px;
+      bottom: -100px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.05);
+    }
+
+    .learn-hero-kicker {
+      margin-bottom: 10px;
+      color: #d8b35a;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .learn-hero h1 {
+      position: relative;
+      z-index: 1;
+      max-width: 720px;
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.7rem);
+      line-height: 1.02;
+      letter-spacing: -.04em;
+    }
+
+    .learn-hero p {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      margin: 0;
+      color: rgba(255,255,255,.76);
+      font-size: 1.02rem;
+      line-height: 1.7;
+    }
+
+    .continue-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 42px;
+      padding: 22px 24px;
+      border: 1px solid rgba(23,24,39,.08);
+      border-radius: 22px;
+      background: #fff;
+      box-shadow: 0 12px 35px rgba(23,24,39,.07);
+    }
+
+    .continue-copy small {
+      display: block;
+      margin-bottom: 5px;
+      color: #777;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .continue-copy strong {
+      display: block;
+      color: #171827;
+      font-size: 1.08rem;
+    }
+
+    .continue-copy span {
+      display: block;
+      margin-top: 4px;
+      color: #777;
+      font-size: .88rem;
+    }
+
+    .continue-button {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 12px;
+      background: #171827;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+      transition: transform .2s ease, opacity .2s ease;
+    }
+
+    .continue-button:hover {
+      transform: translateY(-2px);
+      opacity: .92;
+    }
+
+    .curriculum-header {
+      margin-bottom: 22px;
+    }
+
+    .curriculum-header small {
+      display: block;
+      margin-bottom: 7px;
+      color: #8a7440;
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .curriculum-header h2 {
+      margin: 0 0 7px;
+      color: #171827;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      letter-spacing: -.03em;
+    }
+
+    .curriculum-header p {
+      max-width: 700px;
+      margin: 0;
+      color: #707070;
+      line-height: 1.65;
+    }
+
+    .levels {
+      display: grid;
+      gap: 18px;
+    }
+
+    .level {
+      overflow: hidden;
+      border: 1px solid rgba(23,24,39,.08);
+      border-radius: 24px;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(23,24,39,.055);
+    }
+
+    .level-summary {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 16px;
+      padding: 22px 24px;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .level-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .level-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      color: #fff;
+      font-size: .86rem;
+      font-weight: 900;
+    }
+
+    .level-title strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #171827;
+      font-size: 1.08rem;
+    }
+
+    .level-title span {
+      display: block;
+      color: #777;
+      font-size: .88rem;
+    }
+
+    .level-status {
+      text-align: right;
+      color: #777;
+      font-size: .78rem;
+      font-weight: 700;
+    }
+
+    .level-progress {
+      margin-top: 6px;
+      color: #999;
+      font-size: .72rem;
+      font-weight: 600;
+    }
+
+    .progress-track {
+      width: 120px;
+      height: 5px;
+      margin-top: 7px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #ececec;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+    }
+
+    .level-chevron {
+      color: #999;
+      font-size: 1.1rem;
+      transition: transform .2s ease;
+    }
+
+    .level[open] .level-chevron {
+      transform: rotate(180deg);
+    }
+
+    .level-content {
+      padding: 0 24px 24px;
+      border-top: 1px solid rgba(23,24,39,.06);
+    }
+
+    .level-intro {
+      max-width: 760px;
+      margin: 20px 0;
+      color: #686868;
+      font-size: .93rem;
+      line-height: 1.7;
+    }
+
+    .chapter-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .chapter {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 14px;
+      padding: 15px 16px;
+      border: 1px solid rgba(23,24,39,.07);
+      border-radius: 16px;
+      background: #faf9f6;
+      color: inherit;
+      text-decoration: none;
+      transition:
+        transform .18s ease,
+        border-color .18s ease,
+        background .18s ease;
+    }
+
+    .chapter:hover {
+      transform: translateX(3px);
+      border-color: rgba(23,24,39,.16);
+      background: #fff;
+    }
+
+    .chapter-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 38px;
+      height: 38px;
+      padding: 0 8px;
+      border-radius: 11px;
+      background: #eeeae0;
+      color: #555;
+      font-size: .75rem;
+      font-weight: 900;
+    }
+
+    .chapter-main strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #171827;
+      font-size: .96rem;
+    }
+
+    .chapter-main span {
+      display: block;
+      color: #777;
+      font-size: .79rem;
+      line-height: 1.45;
+    }
+
+    .chapter-meta {
+      color: #999;
+      font-size: .72rem;
+      font-weight: 700;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .chapter-arrow {
+      color: #aaa;
+      font-size: 1.05rem;
+    }
+
+    /* Level accents */
+    .level-0 .level-number,
+    .level-0 .progress-fill {
+      background: #8a7440;
+    }
+
+    .level-1 .level-number,
+    .level-1 .progress-fill {
+      background: #2f7d4b;
+    }
+
+    .level-2 .level-number,
+    .level-2 .progress-fill {
+      background: #3b7a57;
+    }
+
+    .level-3 .level-number,
+    .level-3 .progress-fill {
+      background: #27695b;
+    }
+
+    .level-4 .level-number,
+    .level-4 .progress-fill {
+      background: #5a4c87;
+    }
+
+    .principles {
+      margin-top: 52px;
+    }
+
+    .principles-header {
+      margin-bottom: 18px;
+    }
+
+    .principles-header h2 {
+      margin: 0 0 7px;
+      color: #171827;
+      font-size: 1.7rem;
+    }
+
+    .principles-header p {
+      margin: 0;
+      color: #777;
+      line-height: 1.6;
+    }
+
+    .principle-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .principle {
+      padding: 20px;
+      border-radius: 20px;
+      background: #fff;
+      border: 1px solid rgba(23,24,39,.07);
+    }
+
+    .principle-icon {
+      margin-bottom: 13px;
+      font-size: 1.35rem;
+    }
+
+    .principle strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #171827;
+    }
+
+    .principle p {
+      margin: 0;
+      color: #777;
+      font-size: .84rem;
+      line-height: 1.6;
+    }
+
+    .final-cta {
+      margin-top: 48px;
+      padding: 34px 28px;
+      border-radius: 24px;
+      background: #171827;
+      color: #fff;
+      text-align: center;
+    }
+
+    .final-cta h2 {
+      margin: 0 0 8px;
+      font-size: 1.8rem;
+    }
+
+    .final-cta p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      color: rgba(255,255,255,.72);
+      line-height: 1.6;
+    }
+
+    .final-cta a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 20px;
+      border-radius: 12px;
+      background: #fff;
+      color: #171827;
+      text-decoration: none;
+      font-weight: 900;
+    }
+
+    @media (max-width: 760px) {
+      .learn-hub {
+        padding: 18px 14px 60px;
+      }
+
+      .learn-hero {
+        padding: 32px 22px;
+        border-radius: 22px;
+      }
+
+      .continue-card {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .continue-button {
+        width: 100%;
+      }
+
+      .level-summary {
+        grid-template-columns: auto 1fr auto;
+        gap: 11px;
+        padding: 18px;
+      }
+
+      .level-status {
+        display: none;
+      }
+
+      .level-content {
+        padding: 0 14px 16px;
+      }
+
+      .chapter {
+        grid-template-columns: auto 1fr auto;
+        gap: 10px;
+        padding: 13px;
+      }
+
+      .chapter-meta {
+        display: none;
+      }
+
+      .principle-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .chapter-main strong {
+        font-size: .9rem;
+      }
+
+      .chapter-main span {
+        font-size: .75rem;
+      }
+
+      .chapter-number {
+        min-width: 34px;
+        height: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========================================================= -->
+  <!-- HEADER — SAME AS CONTRIBUTE PAGE -->
+  <!-- ========================================================= -->
+
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark">
+        <img
+          id="brandIcon"
+          src="./icon-512.png"
+          alt=""
+          width="52"
+          height="52"
+        />
+      </span>
+
+      <span>
+        <strong>Sọ̀rọ̀ Sókè</strong>
+        <small>Yoruba language & pronunciation</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="./index.html">Speak</a>
+      <a href="./dictionary.html">Dictionary</a>
+      <a class="active" href="./learn.html">Learn</a>
+      <a href="./contribute.html">Contribute</a>
+    </nav>
+  </header>
+
+
+  <!-- ========================================================= -->
+  <!-- EVERYTHING BELOW HERE IS YOUR ORIGINAL LEARN PAGE -->
+  <!-- ========================================================= -->
+
+  <main class="learn-hub">
+
+    <!-- HERO -->
+    <section class="learn-hero">
+      <div class="learn-hero-kicker">Sọ̀rọ̀ Sókè · Learn Yoruba</div>
+
+      <h1>Learn Yoruba step by step.</h1>
+
+      <p>
+        A complete path from your first Yoruba sounds to real conversations,
+        natural speech, culture and fluency.
+      </p>
+    </section>
+
+
+    <!-- CONTINUE -->
+    <section class="continue-card">
+
+      <div class="continue-copy">
+        <small>Continue learning</small>
+        <strong>Your next lesson is waiting.</strong>
+        <span>Start from the beginning or jump into any chapter.</span>
+      </div>
+
+      <a
+        class="continue-button"
+        href="./lesson.html?lesson=level-0-chapter-1-lesson-1"
+      >
+        Start learning →
+      </a>
+
+    </section>
+
+
+    <!-- CURRICULUM -->
+    <section>
+
+      <div class="curriculum-header">
+        <small>The curriculum</small>
+        <h2>Everything you need to speak Yoruba.</h2>
+        <p>
+          Start with the foundations, build useful everyday language,
+          then move into deeper grammar, natural conversation and fluency.
+        </p>
+      </div>
+
+
+      <div class="levels">
+
+        <!-- ========================================================= -->
+        <!-- LEVEL 0 -->
+        <!-- ========================================================= -->
+
+        <details class="level level-0">
+
+          <summary class="level-summary">
+
+            <div class="level-number">0</div>
+
+            <div class="level-title">
+              <strong>🌱 ÌPÌLẸ̀ · FOUNDATION</strong>
+              <span>Learn how Yoruba works.</span>
+            </div>
+
+            <div class="level-status">
+              <div>0 of 7 lessons</div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+
+            <div class="level-chevron">⌄</div>
+
+          </summary>
+
+          <div class="level-content">
+
+            <p class="level-intro">
+              Before you start building sentences, learn the foundations
+              that make Yoruba different: its sound system, special letters,
+              tone marks and written forms. This level gives you the tools
+              to read and pronounce Yoruba with confidence.
+            </p>
+
+            <div class="chapter-list">
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-1-lesson-1">
+
+                <div class="chapter-number">01</div>
+
+                <div class="chapter-main">
+                  <strong>Kí ni Yorùbá?</strong>
+                  <span>What is Yoruba? · Where it is spoken · How this course works</span>
+                </div>
+
+                <div class="chapter-meta">4 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-2-lesson-1">
+
+                <div class="chapter-number">02</div>
+
+                <div class="chapter-main">
+                  <strong>Álfábẹ́ẹ̀tì Yorùbá</strong>
+                  <span>The Yoruba alphabet · Ẹ · Ọ · Ṣ · Gb · Writing</span>
+                </div>
+
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-3-lesson-1">
+
+                <div class="chapter-number">03</div>
+
+                <div class="chapter-main">
+                  <strong>Àwọn Ohùn</strong>
+                  <span>Yoruba sounds · Vowels · Consonants · Sound discrimination</span>
+                </div>
+
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-4-lesson-1">
+
+                <div class="chapter-number">04</div>
+
+                <div class="chapter-main">
+                  <strong>Àmì Ohùn</strong>
+                  <span>High · Mid · Low tones · Tone marks · Meaning</span>
+                </div>
+
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-5-lesson-1">
+
+                <div class="chapter-number">05</div>
+
+                <div class="chapter-main">
+                  <strong>Ìsọ̀kan Ohùn</strong>
+                  <span>Natural speech · Sound changes · Connected Yoruba</span>
+                </div>
+
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-6-lesson-1">
+
+                <div class="chapter-number">06</div>
+
+                <div class="chapter-main">
+                  <strong>Kíkà àti Kíkọ́</strong>
+                  <span>Reading · Writing · Tone marks · Dictation</span>
+                </div>
+
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+
+              <a class="chapter"
+                href="./lesson.html?lesson=level-0-chapter-7-lesson-1">
+
+                <div class="chapter-number">07</div>
+
+                <div class="chapter-main">
+                  <strong>Pronunciation Bootcamp</strong>
+                  <span>Hear · Repeat · Speak · Challenge yourself</span>
+                </div>
+
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </details>
+
+
+        <!-- ========================================================= -->
+        <!-- LEVEL 1 -->
+        <!-- ========================================================= -->
+
+        <details class="level level-1">
+
+          <summary class="level-summary">
+
+            <div class="level-number">1</div>
+
+            <div class="level-title">
+              <strong>🟢 ÌBẸ̀RẸ̀ · BEGINNER</strong>
+              <span>Start communicating.</span>
+            </div>
+
+            <div class="level-status">
+              <div>0 of 19 chapters</div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+
+            <div class="level-chevron">⌄</div>
+
+          </summary>
+
+          <div class="level-content">
+
+            <p class="level-intro">
+              This is where Yoruba becomes useful. Learn the language you
+              need to introduce yourself, greet people, talk about family,
+              shop, eat, travel, study and handle everyday situations.
+            </p>
+
+            <div class="chapter-list">
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-1-lesson-1">
+                <div class="chapter-number">01</div>
+                <div class="chapter-main">
+                  <strong>ÌKÍNI</strong>
+                  <span>Greetings · Respect · Introductions · Goodbye</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-2-lesson-1">
+                <div class="chapter-number">02</div>
+                <div class="chapter-main">
+                  <strong>ÈMI ÀTI ÌWỌ</strong>
+                  <span>Me and you · Pronouns · Names · Simple sentences</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-3-lesson-1">
+                <div class="chapter-number">03</div>
+                <div class="chapter-main">
+                  <strong>NỌ́MBÀ</strong>
+                  <span>Numbers · Counting · Age · Prices · Phone numbers</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-4-lesson-1">
+                <div class="chapter-number">04</div>
+                <div class="chapter-main">
+                  <strong>ÌDÍLÉ</strong>
+                  <span>Family · Relationships · Possession · Describing family</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-5-lesson-1">
+                <div class="chapter-number">05</div>
+                <div class="chapter-main">
+                  <strong>NÍNÚ KÍLÁÀSÌ</strong>
+                  <span>Classroom · School objects · Instructions · Questions</span>
+                </div>
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-6-lesson-1">
+                <div class="chapter-number">06</div>
+                <div class="chapter-main">
+                  <strong>ÀKÓKÒ ÀTI ÌṢẸ̀LẸ̀</strong>
+                  <span>Days · Dates · Today · Yesterday · Tomorrow · Future</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-7-lesson-1">
+                <div class="chapter-number">07</div>
+                <div class="chapter-main">
+                  <strong>AAGO</strong>
+                  <span>Clock time · Schedules · Meetings · Asking the time</span>
+                </div>
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-8-lesson-1">
+                <div class="chapter-number">08</div>
+                <div class="chapter-main">
+                  <strong>ÀWỌ̀</strong>
+                  <span>Colors · Size · Shape · Appearance</span>
+                </div>
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-9-lesson-1">
+                <div class="chapter-number">09</div>
+                <div class="chapter-main">
+                  <strong>ILÉ</strong>
+                  <span>Home · Rooms · Furniture · Locations</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-10-lesson-1">
+                <div class="chapter-number">10</div>
+                <div class="chapter-main">
+                  <strong>ÈÈDÀ ÀTI ÀPEJUWE</strong>
+                  <span>People · Appearance · Personality · Age · Clothing</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-11-lesson-1">
+                <div class="chapter-number">11</div>
+                <div class="chapter-main">
+                  <strong>ỌJÀ</strong>
+                  <span>Market · Buying · Selling · Prices · Bargaining</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-12-lesson-1">
+                <div class="chapter-number">12</div>
+                <div class="chapter-main">
+                  <strong>OÚNJẸ́</strong>
+                  <span>Food · Drinks · Meals · Likes · Dislikes</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-13-lesson-1">
+                <div class="chapter-number">13</div>
+                <div class="chapter-main">
+                  <strong>BÚKÀ ÀTI ILÉ ÌTAJÀ</strong>
+                  <span>Restaurant · Shop · Ordering · Paying · Requests</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-14-lesson-1">
+                <div class="chapter-number">14</div>
+                <div class="chapter-main">
+                  <strong>ÌLERA</strong>
+                  <span>Body · Health · Illness · Doctor · Pharmacy</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-15-lesson-1">
+                <div class="chapter-number">15</div>
+                <div class="chapter-main">
+                  <strong>ERÉ ÌDÁRAYÁ</strong>
+                  <span>Sports · Exercise · Hobbies · Activities</span>
+                </div>
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-16-lesson-1">
+                <div class="chapter-number">16</div>
+                <div class="chapter-main">
+                  <strong>IṢẸ́</strong>
+                  <span>Work · Jobs · Professions · Workplace</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-17-lesson-1">
+                <div class="chapter-number">17</div>
+                <div class="chapter-main">
+                  <strong>ÀṢỌ</strong>
+                  <span>Clothing · Shoes · Accessories · Traditional clothing</span>
+                </div>
+                <div class="chapter-meta">5 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-18-lesson-1">
+                <div class="chapter-number">18</div>
+                <div class="chapter-main">
+                  <strong>ILÉ-ÌWÉ</strong>
+                  <span>School · Campus · Subjects · University life</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-1-chapter-19-lesson-1">
+                <div class="chapter-number">19</div>
+                <div class="chapter-main">
+                  <strong>ÌBÁNISỌ̀RỌ̀ ÀKỌ́BẸ̀RẸ̀</strong>
+                  <span>Your first real Yoruba conversations</span>
+                </div>
+                <div class="chapter-meta">Challenge</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+            </div>
+
+          </div>
+
+        </details>
+
+
+        <!-- ========================================================= -->
+        <!-- LEVEL 2 -->
+        <!-- ========================================================= -->
+
+        <details class="level level-2">
+
+          <summary class="level-summary">
+
+            <div class="level-number">2</div>
+
+            <div class="level-title">
+              <strong>🌿 ÌDÀGBÀSÓKÈ · INTERMEDIATE</strong>
+              <span>Build real Yoruba.</span>
+            </div>
+
+            <div class="level-status">
+              <div>0 of 14 chapters</div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+
+            <div class="level-chevron">⌄</div>
+
+          </summary>
+
+          <div class="level-content">
+
+            <p class="level-intro">
+              Move beyond memorized phrases. Learn how Yoruba sentences are
+              built, how verbs behave, how to ask and answer questions,
+              how to talk about time and how to hold longer conversations.
+            </p>
+
+            <div class="chapter-list">
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-20-lesson-1">
+                <div class="chapter-number">20</div>
+                <div class="chapter-main">
+                  <strong>ÀWỌN Ọ̀RỌ̀ ÌṢE</strong>
+                  <span>Core verbs · Actions · Everyday verb patterns</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-21-lesson-1">
+                <div class="chapter-number">21</div>
+                <div class="chapter-main">
+                  <strong>ÀKÓKÒ ÀTI ÌṢẸ̀LẸ̀</strong>
+                  <span>Time · Events · Past · Present · Future · Aspect</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-22-lesson-1">
+                <div class="chapter-number">22</div>
+                <div class="chapter-main">
+                  <strong>ÌBÉÈRÈ</strong>
+                  <span>Questions · Who · What · Where · When · Why · How</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-23-lesson-1">
+                <div class="chapter-number">23</div>
+                <div class="chapter-main">
+                  <strong>ÀÌDÁHÙN</strong>
+                  <span>Negation · Don't · Didn't · Won't · Not yet · Never</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-24-lesson-1">
+                <div class="chapter-number">24</div>
+                <div class="chapter-main">
+                  <strong>ÀWỌN ÀRỌ́PÒ ORÚKỌ</strong>
+                  <span>Pronouns · Objects · Possession · Emphasis · Reflexives</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-25-lesson-1">
+                <div class="chapter-number">25</div>
+                <div class="chapter-main">
+                  <strong>ÀPẸ̀JỌ́ ÀTI ÀPEJUWE</strong>
+                  <span>Adjectives · Adverbs · Comparisons · Descriptions</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-26-lesson-1">
+                <div class="chapter-number">26</div>
+                <div class="chapter-main">
+                  <strong>NÍNÚ ILÉ</strong>
+                  <span>Chores · Routines · Requests · Household conversations</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-27-lesson-1">
+                <div class="chapter-number">27</div>
+                <div class="chapter-main">
+                  <strong>ỌJỌ́ MI</strong>
+                  <span>Daily routine · Wake · Eat · Work · Study · Sleep</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-28-lesson-1">
+                <div class="chapter-number">28</div>
+                <div class="chapter-main">
+                  <strong>ÌRÌNÀJÒ</strong>
+                  <span>Travel · Directions · Transport · Hotel · Help</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-29-lesson-1">
+                <div class="chapter-number">29</div>
+                <div class="chapter-main">
+                  <strong>ÌBÁNISỌ̀RỌ̀</strong>
+                  <span>Starting conversations · Follow-ups · Clarifying · Agreeing</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-30-lesson-1">
+                <div class="chapter-number">30</div>
+                <div class="chapter-main">
+                  <strong>ÌMỌ̀LÀRÁ</strong>
+                  <span>Feelings · Opinions · Wanting · Thinking · Believing</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-31-lesson-1">
+                <div class="chapter-number">31</div>
+                <div class="chapter-main">
+                  <strong>ÌWÉ · FÓÓNÙ · ÍŃTÁNẸ́Ẹ̀TÌ</strong>
+                  <span>Phones · Messages · Technology · Modern Yoruba</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-32-lesson-1">
+                <div class="chapter-number">32</div>
+                <div class="chapter-main">
+                  <strong>ÌṢÒWÒ</strong>
+                  <span>Business · Money · Banking · Buying · Selling</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-2-chapter-33-lesson-1">
+                <div class="chapter-number">33</div>
+                <div class="chapter-main">
+                  <strong>ÌRÁNṢẸ́ ÀTI ÌBÁNISỌ̀RỌ̀ TÓ JINLẸ̀</strong>
+                  <span>Longer conversations · Real-world scenarios</span>
+                </div>
+                <div class="chapter-meta">Challenge</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+            </div>
+
+          </div>
+
+        </details>
+
+
+        <!-- ========================================================= -->
+        <!-- LEVEL 3 -->
+        <!-- ========================================================= -->
+
+        <details class="level level-3">
+
+          <summary class="level-summary">
+
+            <div class="level-number">3</div>
+
+            <div class="level-title">
+              <strong>🌳 ÌMỌ̀ JINLẸ̀ · ADVANCED</strong>
+              <span>Speak natural Yoruba.</span>
+            </div>
+
+            <div class="level-status">
+              <div>0 of 13 chapters</div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+
+            <div class="level-chevron">⌄</div>
+
+          </summary>
+
+          <div class="level-content">
+
+            <p class="level-intro">
+              At this stage, Yoruba becomes less about translating and more
+              about understanding how people actually use the language.
+              Explore advanced grammar, natural speech, culture, stories,
+              media, proverbs and deeper conversation.
+            </p>
+
+            <div class="chapter-list">
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-34-lesson-1">
+                <div class="chapter-number">34</div>
+                <div class="chapter-main">
+                  <strong>GÍRÁMÀ YORÙBÁ JINLẸ̀</strong>
+                  <span>Advanced sentence structures · Clauses · Focus · Emphasis</span>
+                </div>
+                <div class="chapter-meta">9 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-35-lesson-1">
+                <div class="chapter-number">35</div>
+                <div class="chapter-main">
+                  <strong>ÀṢÀ ÌWỌ̀LÉ Ọ̀RỌ̀</strong>
+                  <span>Natural speech · Connected speech · Spoken forms</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-36-lesson-1">
+                <div class="chapter-number">36</div>
+                <div class="chapter-main">
+                  <strong>YORÙBÁ TÓ BÁYỌ̀</strong>
+                  <span>Formal · Casual · Respectful · Social context</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-37-lesson-1">
+                <div class="chapter-number">37</div>
+                <div class="chapter-main">
+                  <strong>Ọ̀RỌ̀ ÀGBÀ</strong>
+                  <span>Proverbs · Meaning · Context · Usage</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-38-lesson-1">
+                <div class="chapter-number">38</div>
+                <div class="chapter-main">
+                  <strong>ÒWE ÀTI ÀKỌ́SÍLẸ̀</strong>
+                  <span>Idioms · Expressions · Figurative language · Humor</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-39-lesson-1">
+                <div class="chapter-number">39</div>
+                <div class="chapter-main">
+                  <strong>ÀṢÀ ÀTI ÀṢẸ̀YẸ́</strong>
+                  <span>Culture · Respect · Naming · Ceremonies · Social customs</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-40-lesson-1">
+                <div class="chapter-number">40</div>
+                <div class="chapter-main">
+                  <strong>ORIN</strong>
+                  <span>Yoruba through music · Vocabulary · Cultural references</span>
+                </div>
+                <div class="chapter-meta">6 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-41-lesson-1">
+                <div class="chapter-number">41</div>
+                <div class="chapter-main">
+                  <strong>FIIMÙ ÀTI ÌRÒYÌN</strong>
+                  <span>Film · News · Interviews · Radio · Media Yoruba</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-42-lesson-1">
+                <div class="chapter-number">42</div>
+                <div class="chapter-main">
+                  <strong>ÌTÀN</strong>
+                  <span>Storytelling · Characters · Events · Narration</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-43-lesson-1">
+                <div class="chapter-number">43</div>
+                <div class="chapter-main">
+                  <strong>GBỌ́ YORÙBÁ</strong>
+                  <span>Advanced listening · Different speakers · Different speeds</span>
+                </div>
+                <div class="chapter-meta">8 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-44-lesson-1">
+                <div class="chapter-number">44</div>
+                <div class="chapter-main">
+                  <strong>ÌTÚMỌ̀</strong>
+                  <span>Translation · Meaning · Natural expression</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-45-lesson-1">
+                <div class="chapter-number">45</div>
+                <div class="chapter-main">
+                  <strong>ÌJỌ̀RÒ</strong>
+                  <span>Discussion · Debate · Opinions · Defending ideas</span>
+                </div>
+                <div class="chapter-meta">7 lessons</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-3-chapter-46-lesson-1">
+                <div class="chapter-number">46</div>
+                <div class="chapter-main">
+                  <strong>ÌTÀN ÀTI ÀRÒKÒ</strong>
+                  <span>Longer narratives · Reading · Listening · Comprehension</span>
+                </div>
+                <div class="chapter-meta">Challenge</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+            </div>
+
+          </div>
+
+        </details>
+
+
+        <!-- ========================================================= -->
+        <!-- LEVEL 4 -->
+        <!-- ========================================================= -->
+
+        <details class="level level-4">
+
+          <summary class="level-summary">
+
+            <div class="level-number">4</div>
+
+            <div class="level-title">
+              <strong>🏆 ÌPẸ̀YÀ · FLUENCY & MASTERY</strong>
+              <span>Can you actually function in Yoruba?</span>
+            </div>
+
+            <div class="level-status">
+              <div>0 of 11 labs</div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+
+            <div class="level-chevron">⌄</div>
+
+          </summary>
+
+          <div class="level-content">
+
+            <p class="level-intro">
+              Mastery is about using Yoruba without needing English to carry
+              the conversation. These labs put everything together through
+              speaking, listening, stories, culture, translation and
+              real-world situations.
+            </p>
+
+            <div class="chapter-list">
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-47-lesson-1">
+                <div class="chapter-number">47</div>
+                <div class="chapter-main">
+                  <strong>CONVERSATION LAB</strong>
+                  <span>Build and sustain real conversations</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-48-lesson-1">
+                <div class="chapter-number">48</div>
+                <div class="chapter-main">
+                  <strong>LISTENING LAB</strong>
+                  <span>Understand Yoruba at natural speed</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-49-lesson-1">
+                <div class="chapter-number">49</div>
+                <div class="chapter-main">
+                  <strong>SPEAKING LAB</strong>
+                  <span>Pronunciation · Fluency · Spontaneous speaking</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-50-lesson-1">
+                <div class="chapter-number">50</div>
+                <div class="chapter-main">
+                  <strong>STORY LAB</strong>
+                  <span>Understand and tell stories in Yoruba</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-51-lesson-1">
+                <div class="chapter-number">51</div>
+                <div class="chapter-main">
+                  <strong>CULTURE LAB</strong>
+                  <span>Language through Yoruba culture and social life</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-52-lesson-1">
+                <div class="chapter-number">52</div>
+                <div class="chapter-main">
+                  <strong>PROVERBS LAB</strong>
+                  <span>Interpret and use Yoruba proverbs</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-53-lesson-1">
+                <div class="chapter-number">53</div>
+                <div class="chapter-main">
+                  <strong>IDIOM LAB</strong>
+                  <span>Understand expressions beyond literal translation</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-54-lesson-1">
+                <div class="chapter-number">54</div>
+                <div class="chapter-main">
+                  <strong>TRANSLATION LAB</strong>
+                  <span>Translate meaning naturally between languages</span>
+                </div>
+                <div class="chapter-meta">Lab</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-55-lesson-1">
+                <div class="chapter-number">55</div>
+                <div class="chapter-main">
+                  <strong>REAL-WORLD MISSIONS</strong>
+                  <span>Shopping · Food · Doctor · Taxi · Family · Work</span>
+                </div>
+                <div class="chapter-meta">Missions</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-56-lesson-1">
+                <div class="chapter-number">56</div>
+                <div class="chapter-main">
+                  <strong>YORUBA CONVERSATION CHALLENGE</strong>
+                  <span>Respond to real situations without English</span>
+                </div>
+                <div class="chapter-meta">Challenge</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+              <a class="chapter" href="./lesson.html?lesson=level-4-chapter-57-lesson-1">
+                <div class="chapter-number">57</div>
+                <div class="chapter-main">
+                  <strong>FINAL FLUENCY ASSESSMENT</strong>
+                  <span>Listening · Reading · Vocabulary · Grammar · Speaking</span>
+                </div>
+                <div class="chapter-meta">Final</div>
+                <div class="chapter-arrow">→</div>
+              </a>
+
+            </div>
+
+          </div>
+
+        </details>
+
+      </div>
+
+    </section>
+
+
+    <!-- LEARNING PRINCIPLES -->
+
+    <section class="principles">
+
+      <div class="principles-header">
+        <h2>How Sọ̀rọ̀ Sókè teaches.</h2>
+        <p>
+          Deep curriculum underneath. Simple experience on top.
+        </p>
+      </div>
+
+      <div class="principle-grid">
+
+        <article class="principle">
+          <div class="principle-icon">👂</div>
+          <strong>Hear it</strong>
+          <p>
+            Listen to Yoruba pronunciation directly and train your ear
+            before relying on English spelling.
+          </p>
+        </article>
+
+        <article class="principle">
+          <div class="principle-icon">🗣️</div>
+          <strong>Speak it</strong>
+          <p>
+            Practice saying words, phrases and sentences instead of
+            only memorizing vocabulary.
+          </p>
+        </article>
+
+        <article class="principle">
+          <div class="principle-icon">🧠</div>
+          <strong>Understand it</strong>
+          <p>
+            Learn the patterns underneath Yoruba so you can create
+            your own sentences.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- FINAL CTA -->
+
+    <section class="final-cta">
+
+      <h2>Ready to start?</h2>
+
+      <p>
+        Begin with the sounds and writing system, then build your Yoruba
+        one lesson at a time.
+      </p>
+
+      <a href="./lesson.html?lesson=level-0-chapter-1-lesson-1">
+        Start with Foundation →
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- ========================================================= -->
+  <!-- FOOTER — SAME AS CONTRIBUTE PAGE -->
+  <!-- ========================================================= -->
+
+  <footer class="footer">
+
+    <div class="section-shell footer-inner">
+
+      <div class="footer-brand">
+        <strong>Sọ̀rọ̀ Sókè</strong>
+        <p>Speak it. Hear it. Learn it.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="./index.html">Speak</a>
+        <a href="./dictionary.html">Dictionary</a>
+        <a href="./learn.html">Learn</a>
+        <a href="./contribute.html">Contribute</a>
+      </div>
+
+      <div class="footer-install">
+        <button id="installAppBtn" class="install-app-btn" hidden>
+          📱 Install Sọ̀rọ̀ Sókè
+        </button>
+      </div>
+
+      <div class="footer-credit">
+        <p>Made by Pípòlòláolúwà</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script type="module" src="./app.js"></script>
+
+</body>
+</html>

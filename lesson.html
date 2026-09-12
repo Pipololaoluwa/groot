@@ -1,0 +1,2940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Learn Yoruba through pronunciation, listening, speaking, practice and review with Sọ̀rọ̀ Sókè."
+  />
+
+  <meta name="theme-color" content="#171827" />
+
+  <link rel="manifest" href="./manifest.json" />
+
+  <link rel="icon" href="./icon-192.png" />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>Sọ̀rọ̀ Sókè · Lesson</title>
+
+  <style>
+    /* =========================================================
+       LESSON EXPERIENCE
+       ========================================================= */
+
+    .lesson-page {
+      min-height: 100vh;
+      background:
+        radial-gradient(
+          circle at 85% 8%,
+          rgba(199, 116, 67, 0.10),
+          transparent 28rem
+        ),
+        linear-gradient(
+          180deg,
+          #faf6ed 0%,
+          #f7f1e5 55%,
+          #f4ecde 100%
+        );
+    }
+
+    .lesson-shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 34px 0 90px;
+    }
+
+    /* ---------------------------------------------------------
+       BREADCRUMB
+       --------------------------------------------------------- */
+
+    .lesson-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+      color: #77726a;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .lesson-breadcrumb a {
+      color: #555149;
+      text-decoration: none;
+    }
+
+    .lesson-breadcrumb a:hover {
+      color: #171827;
+    }
+
+    .lesson-breadcrumb .separator {
+      opacity: 0.45;
+    }
+
+    /* ---------------------------------------------------------
+       LESSON HERO
+       --------------------------------------------------------- */
+
+    .lesson-hero {
+      position: relative;
+      overflow: hidden;
+      border-radius: 32px;
+      padding: 38px;
+      margin-bottom: 28px;
+      color: #fffaf0;
+      background:
+        radial-gradient(
+          circle at 88% 12%,
+          rgba(231, 169, 103, 0.22),
+          transparent 19rem
+        ),
+        radial-gradient(
+          circle at 15% 110%,
+          rgba(199, 116, 67, 0.22),
+          transparent 22rem
+        ),
+        #171827;
+      box-shadow:
+        0 22px 55px rgba(23, 24, 39, 0.16),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .lesson-hero::after {
+      content: "";
+      position: absolute;
+      width: 190px;
+      height: 190px;
+      right: -70px;
+      bottom: -90px;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .lesson-hero-top {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+      margin-bottom: 34px;
+    }
+
+    .lesson-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      color: #e8b979;
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .lesson-kicker::before {
+      content: "";
+      width: 22px;
+      height: 2px;
+      border-radius: 99px;
+      background: #e8b979;
+    }
+
+    .lesson-number {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 62px;
+      height: 62px;
+      border: 1px solid rgba(255, 255, 255, 0.13);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.07);
+      color: #fffaf0;
+      font-size: 1.15rem;
+      font-weight: 900;
+    }
+
+    .lesson-hero h1 {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      margin: 0;
+      color: #fffaf0;
+      font-size: clamp(2.35rem, 6vw, 4.6rem);
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+    }
+
+    .lesson-subtitle {
+      position: relative;
+      z-index: 1;
+      max-width: 690px;
+      margin: 18px 0 0;
+      color: rgba(255, 250, 240, 0.68);
+      font-size: 1.03rem;
+      line-height: 1.65;
+    }
+
+    .lesson-progress {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .lesson-progress-track {
+      width: min(330px, 100%);
+      height: 7px;
+      overflow: hidden;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .lesson-progress-bar {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(
+        90deg,
+        #d78b57,
+        #edc17d
+      );
+      transition: width 0.35s ease;
+    }
+
+    .lesson-progress-text {
+      color: rgba(255, 250, 240, 0.65);
+      font-size: 0.78rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    /* ---------------------------------------------------------
+       MISSION
+       --------------------------------------------------------- */
+
+    .mission-card {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 18px;
+      align-items: start;
+      padding: 27px 29px;
+      margin-bottom: 55px;
+      border: 1px solid rgba(23, 24, 39, 0.08);
+      border-radius: 25px;
+      background: rgba(255, 252, 245, 0.88);
+      box-shadow: 0 12px 35px rgba(23, 24, 39, 0.06);
+    }
+
+    .mission-icon {
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 15px;
+      background: #171827;
+      color: #f2c984;
+      font-size: 1.2rem;
+      font-weight: 900;
+    }
+
+    .mission-label {
+      margin: 0 0 6px;
+      color: #b66b42;
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .mission-text {
+      margin: 0;
+      color: #272631;
+      font-size: 1.04rem;
+      line-height: 1.65;
+      font-weight: 650;
+    }
+
+    /* ---------------------------------------------------------
+       SECTIONS
+       --------------------------------------------------------- */
+
+    .lesson-section {
+      margin-top: 70px;
+      scroll-margin-top: 100px;
+    }
+
+    .lesson-section:first-of-type {
+      margin-top: 0;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 23px;
+    }
+
+    .section-heading-main {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    .section-index {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
+      border-radius: 13px;
+      background: #e9dfce;
+      color: #171827;
+      font-size: 0.77rem;
+      font-weight: 900;
+    }
+
+    .section-eyebrow {
+      margin: 0 0 5px;
+      color: #a96542;
+      font-size: 0.71rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: #171827;
+      font-size: clamp(1.65rem, 3vw, 2.35rem);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    .section-description {
+      max-width: 570px;
+      margin: 7px 0 0;
+      color: #77726a;
+      line-height: 1.55;
+    }
+
+    /* ---------------------------------------------------------
+       LEARN CARDS
+       --------------------------------------------------------- */
+
+    .learn-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 17px;
+    }
+
+    .learn-card {
+      min-height: 185px;
+      padding: 27px;
+      border: 1px solid rgba(23, 24, 39, 0.08);
+      border-radius: 24px;
+      background: #fffdf8;
+      box-shadow: 0 10px 28px rgba(23, 24, 39, 0.045);
+    }
+
+    .learn-card h3 {
+      margin: 0 0 12px;
+      color: #171827;
+      font-size: 1.16rem;
+    }
+
+    .learn-card p {
+      margin: 0;
+      color: #666158;
+      line-height: 1.7;
+    }
+
+    .learn-card.featured {
+      grid-column: span 2;
+      background:
+        linear-gradient(
+          135deg,
+          #fffdf8,
+          #f4ead9
+        );
+      border-color: rgba(180, 104, 65, 0.15);
+    }
+
+    /* ---------------------------------------------------------
+       HEAR
+       --------------------------------------------------------- */
+
+    .hear-grid {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(210px, 1fr)
+      );
+      gap: 15px;
+    }
+
+    .sound-card {
+      position: relative;
+      min-height: 190px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 23px;
+      border: 1px solid rgba(23, 24, 39, 0.09);
+      border-radius: 23px;
+      background: #fffdf8;
+      box-shadow: 0 9px 26px rgba(23, 24, 39, 0.05);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .sound-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 32px rgba(23, 24, 39, 0.09);
+    }
+
+    .sound-card-word {
+      margin: 0;
+      color: #171827;
+      font-size: clamp(1.65rem, 4vw, 2.35rem);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+    }
+
+    .sound-card-translation {
+      margin: 7px 0 20px;
+      color: #77726a;
+      font-size: 0.88rem;
+    }
+
+    .speak-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 43px;
+      padding: 10px 15px;
+      border: 0;
+      border-radius: 13px;
+      background: #171827;
+      color: #fffaf0;
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 850;
+      cursor: pointer;
+      transition:
+        transform 0.15s ease,
+        background 0.15s ease;
+    }
+
+    .speak-button:hover {
+      background: #292a3e;
+      transform: translateY(-1px);
+    }
+
+    .speak-button:active {
+      transform: translateY(1px);
+    }
+
+    /* ---------------------------------------------------------
+       LETTERS
+       --------------------------------------------------------- */
+
+    .letter-grid {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+      );
+      gap: 15px;
+    }
+
+    .letter-card {
+      padding: 25px;
+      border-radius: 22px;
+      background: #171827;
+      color: #fffaf0;
+      box-shadow: 0 12px 28px rgba(23, 24, 39, 0.10);
+    }
+
+    .letter-symbol {
+      display: block;
+      margin-bottom: 20px;
+      color: #f0c783;
+      font-size: 2.7rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .letter-sound {
+      color: rgba(255, 250, 240, 0.70);
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    /* ---------------------------------------------------------
+       TONES
+       --------------------------------------------------------- */
+
+    .tone-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .tone-card {
+      padding: 27px;
+      border: 1px solid rgba(23, 24, 39, 0.08);
+      border-radius: 24px;
+      background: #fffdf8;
+    }
+
+    .tone-mark {
+      display: block;
+      margin-bottom: 12px;
+      color: #171827;
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .tone-name {
+      margin: 0 0 7px;
+      color: #171827;
+      font-weight: 900;
+    }
+
+    .tone-example {
+      margin: 0;
+      color: #77726a;
+      font-size: 0.9rem;
+    }
+
+    /* ---------------------------------------------------------
+       PRACTICE
+       --------------------------------------------------------- */
+
+    .practice-panel {
+      padding: 30px;
+      border-radius: 28px;
+      background:
+        radial-gradient(
+          circle at 100% 0%,
+          rgba(225, 171, 102, 0.15),
+          transparent 22rem
+        ),
+        #ebe1d0;
+    }
+
+    .practice-prompt {
+      margin: 0 0 24px;
+      color: #171827;
+      font-size: clamp(1.15rem, 3vw, 1.5rem);
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .practice-items {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .practice-item {
+      padding: 15px 17px;
+      border-radius: 15px;
+      background: rgba(255, 253, 248, 0.78);
+      color: #44413c;
+      font-weight: 700;
+    }
+
+    .practice-questions {
+      display: grid;
+      gap: 18px;
+    }
+
+    .practice-question {
+      padding: 20px;
+      border-radius: 18px;
+      background: #fffdf8;
+    }
+
+    .practice-question-text {
+      margin: 0 0 13px;
+      color: #171827;
+      font-weight: 850;
+    }
+
+    .practice-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .practice-option {
+      padding: 10px 14px;
+      border: 1px solid rgba(23, 24, 39, 0.12);
+      border-radius: 12px;
+      background: #fffdf8;
+      color: #37342f;
+      font: inherit;
+      font-size: 0.82rem;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .practice-option:hover {
+      border-color: #171827;
+    }
+
+    .practice-option.correct {
+      border-color: #39704b;
+      background: #e2f0e5;
+      color: #285b39;
+    }
+
+    .practice-option.incorrect {
+      border-color: #a75043;
+      background: #f6e2df;
+      color: #843d34;
+    }
+
+    /* ---------------------------------------------------------
+       SPEAK
+       --------------------------------------------------------- */
+
+    .speak-panel {
+      overflow: hidden;
+      border-radius: 29px;
+      background: #171827;
+      color: #fffaf0;
+      box-shadow: 0 18px 40px rgba(23, 24, 39, 0.13);
+    }
+
+    .speak-panel-header {
+      padding: 30px 30px 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    }
+
+    .speak-panel-header h3 {
+      margin: 0 0 8px;
+      color: #fffaf0;
+      font-size: 1.45rem;
+    }
+
+    .speak-panel-header p {
+      margin: 0;
+      max-width: 650px;
+      color: rgba(255, 250, 240, 0.62);
+      line-height: 1.6;
+    }
+
+    .speak-list {
+      display: grid;
+    }
+
+    .speak-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .speak-row:last-child {
+      border-bottom: 0;
+    }
+
+    .speak-text {
+      margin: 0 0 4px;
+      color: #fffaf0;
+      font-size: 1.1rem;
+      font-weight: 850;
+    }
+
+    .speak-translation {
+      margin: 0;
+      color: rgba(255, 250, 240, 0.53);
+      font-size: 0.82rem;
+    }
+
+    .speak-row .speak-button {
+      background: #f0c783;
+      color: #171827;
+    }
+
+    /* ---------------------------------------------------------
+       REVIEW
+       --------------------------------------------------------- */
+
+    .review-container {
+      display: grid;
+      gap: 15px;
+    }
+
+    .review-card {
+      padding: 26px;
+      border: 1px solid rgba(23, 24, 39, 0.08);
+      border-radius: 23px;
+      background: #fffdf8;
+    }
+
+    .review-number {
+      margin-bottom: 10px;
+      color: #a96542;
+      font-size: 0.7rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .review-question {
+      margin: 0 0 18px;
+      color: #171827;
+      font-size: 1.05rem;
+      line-height: 1.5;
+      font-weight: 850;
+    }
+
+    .review-options {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .review-option {
+      min-height: 52px;
+      padding: 12px 15px;
+      border: 1px solid rgba(23, 24, 39, 0.11);
+      border-radius: 14px;
+      background: #fffdf8;
+      color: #34312d;
+      font: inherit;
+      font-size: 0.87rem;
+      font-weight: 750;
+      text-align: left;
+      cursor: pointer;
+      transition:
+        border-color 0.15s ease,
+        background 0.15s ease,
+        transform 0.15s ease;
+    }
+
+    .review-option:hover:not(:disabled) {
+      border-color: #171827;
+      transform: translateY(-1px);
+    }
+
+    .review-option.correct {
+      border-color: #39704b;
+      background: #e2f0e5;
+      color: #285b39;
+    }
+
+    .review-option.incorrect {
+      border-color: #a75043;
+      background: #f6e2df;
+      color: #843d34;
+    }
+
+    .review-option:disabled {
+      cursor: default;
+    }
+
+    .review-feedback {
+      display: none;
+      margin-top: 14px;
+      padding: 13px 15px;
+      border-radius: 12px;
+      font-size: 0.84rem;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+
+    .review-feedback.show {
+      display: block;
+    }
+
+    .review-feedback.correct {
+      background: #e2f0e5;
+      color: #285b39;
+    }
+
+    .review-feedback.incorrect {
+      background: #f6e2df;
+      color: #843d34;
+    }
+
+    /* ---------------------------------------------------------
+       COMPLETE
+       --------------------------------------------------------- */
+
+    .complete-panel {
+      position: relative;
+      overflow: hidden;
+      padding: 42px;
+      border-radius: 32px;
+      background:
+        radial-gradient(
+          circle at 90% 10%,
+          rgba(240, 199, 131, 0.20),
+          transparent 18rem
+        ),
+        #171827;
+      color: #fffaf0;
+      text-align: center;
+      box-shadow: 0 22px 50px rgba(23, 24, 39, 0.14);
+    }
+
+    .complete-icon {
+      display: grid;
+      place-items: center;
+      width: 66px;
+      height: 66px;
+      margin: 0 auto 20px;
+      border-radius: 22px;
+      background: rgba(240, 199, 131, 0.14);
+      color: #f0c783;
+      font-size: 1.7rem;
+      font-weight: 900;
+    }
+
+    .complete-panel h2 {
+      margin: 0 0 10px;
+      color: #fffaf0;
+      font-size: clamp(1.8rem, 4vw, 2.7rem);
+      letter-spacing: -0.04em;
+    }
+
+    .complete-panel p {
+      max-width: 600px;
+      margin: 0 auto 25px;
+      color: rgba(255, 250, 240, 0.62);
+      line-height: 1.65;
+    }
+
+    .complete-status {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 9px 15px;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      border-radius: 13px;
+      color: rgba(255, 250, 240, 0.74);
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+
+    /* ---------------------------------------------------------
+       LESSON NAVIGATION
+       --------------------------------------------------------- */
+
+    .lesson-navigation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 18px;
+    }
+
+    .lesson-nav-card {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      min-height: 105px;
+      padding: 20px;
+      border: 1px solid rgba(23, 24, 39, 0.09);
+      border-radius: 21px;
+      background: rgba(255, 253, 248, 0.88);
+      color: #171827;
+      text-decoration: none;
+      transition:
+        transform 0.18s ease,
+        box-shadow 0.18s ease;
+    }
+
+    .lesson-nav-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(23, 24, 39, 0.07);
+    }
+
+    .lesson-nav-card.next {
+      text-align: right;
+      align-items: flex-end;
+    }
+
+    .lesson-nav-label {
+      color: #a96542;
+      font-size: 0.69rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .lesson-nav-title {
+      font-size: 0.96rem;
+      font-weight: 850;
+    }
+
+    .lesson-nav-empty {
+      visibility: hidden;
+    }
+
+    /* ---------------------------------------------------------
+       NOT FOUND
+       --------------------------------------------------------- */
+
+    .lesson-not-found {
+      display: none;
+      padding: 60px 25px;
+      border-radius: 28px;
+      background: #fffdf8;
+      text-align: center;
+    }
+
+    .lesson-not-found.show {
+      display: block;
+    }
+
+    .lesson-not-found h1 {
+      margin: 0 0 10px;
+      color: #171827;
+    }
+
+    .lesson-not-found p {
+      margin: 0;
+      color: #77726a;
+    }
+
+    /* ---------------------------------------------------------
+       RESPONSIVE
+       --------------------------------------------------------- */
+
+    @media (max-width: 760px) {
+      .lesson-shell {
+        width: min(100% - 22px, 1120px);
+        padding-top: 20px;
+      }
+
+      .lesson-hero {
+        padding: 27px 23px;
+        border-radius: 25px;
+      }
+
+      .lesson-hero-top {
+        margin-bottom: 27px;
+      }
+
+      .lesson-number {
+        width: 50px;
+        height: 50px;
+        border-radius: 16px;
+        font-size: 0.95rem;
+      }
+
+      .lesson-hero h1 {
+        font-size: clamp(2.1rem, 12vw, 3.4rem);
+      }
+
+      .mission-card {
+        grid-template-columns: 1fr;
+        padding: 22px;
+        margin-bottom: 42px;
+      }
+
+      .learn-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .learn-card.featured {
+        grid-column: auto;
+      }
+
+      .tone-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .practice-panel,
+      .speak-panel-header {
+        padding: 23px;
+      }
+
+      .speak-row {
+        grid-template-columns: 1fr;
+        padding: 19px 23px;
+      }
+
+      .speak-row .speak-button {
+        width: 100%;
+      }
+
+      .review-options {
+        grid-template-columns: 1fr;
+      }
+
+      .complete-panel {
+        padding: 32px 22px;
+      }
+
+      .lesson-navigation {
+        grid-template-columns: 1fr;
+      }
+
+      .lesson-nav-card.next {
+        text-align: left;
+        align-items: flex-start;
+      }
+
+      .lesson-nav-empty {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="lesson-page">
+
+  <!-- =======================================================
+       HEADER
+       ======================================================= -->
+
+  <header class="topbar">
+    <a
+      class="brand"
+      href="./index.html"
+      aria-label="Sọ̀rọ̀ Sókè home"
+    >
+      <span class="brand-mark">
+        <img
+          id="brandIcon"
+          src="./icon-512.png"
+          alt=""
+          width="52"
+          height="52"
+        />
+      </span>
+
+      <span>
+        <strong>Sọ̀rọ̀ Sókè</strong>
+        <small>Yoruba language & pronunciation</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="./index.html">Home</a>
+      <a href="./dictionary.html">Dictionary</a>
+      <a class="active" href="./learn.html">Learn</a>
+      <a href="./contribute.html">Contribute</a>
+    </nav>
+  </header>
+
+
+  <!-- =======================================================
+       MAIN
+       ======================================================= -->
+
+  <main class="lesson-shell">
+
+    <!-- Breadcrumb -->
+
+    <div class="lesson-breadcrumb">
+      <a href="./learn.html">Learn</a>
+      <span class="separator">/</span>
+      <span id="breadcrumbLevel">Foundation</span>
+      <span class="separator">/</span>
+      <span id="breadcrumbChapter">Chapter</span>
+    </div>
+
+
+    <!-- Not found -->
+
+    <section
+      id="lessonNotFound"
+      class="lesson-not-found"
+    >
+      <h1>Lesson not found</h1>
+      <p>
+        This lesson could not be loaded.
+        Return to Learn and choose another lesson.
+      </p>
+    </section>
+
+
+    <!-- Lesson -->
+
+    <div id="lessonContent">
+
+      <!-- HERO -->
+
+      <section class="lesson-hero">
+
+        <div class="lesson-hero-top">
+
+          <div>
+            <div
+              id="lessonKicker"
+              class="lesson-kicker"
+            >
+              Foundation
+            </div>
+          </div>
+
+          <div
+            id="lessonNumber"
+            class="lesson-number"
+          >
+            01
+          </div>
+
+        </div>
+
+        <h1 id="lessonTitle">
+          Loading lesson…
+        </h1>
+
+        <p
+          id="lessonSubtitle"
+          class="lesson-subtitle"
+        ></p>
+
+        <div class="lesson-progress">
+
+          <div class="lesson-progress-track">
+            <div
+              id="lessonProgressBar"
+              class="lesson-progress-bar"
+            ></div>
+          </div>
+
+          <span
+            id="lessonProgressText"
+            class="lesson-progress-text"
+          >
+            Lesson 1
+          </span>
+
+        </div>
+
+      </section>
+
+
+      <!-- MISSION -->
+
+      <section class="mission-card">
+
+        <div class="mission-icon">
+          →
+        </div>
+
+        <div>
+          <p class="mission-label">
+            Your mission
+          </p>
+
+          <p
+            id="lessonMission"
+            class="mission-text"
+          ></p>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           LEARN
+           ===================================================== -->
+
+      <section
+        id="learnSection"
+        class="lesson-section"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              01
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Understand
+              </p>
+
+              <h2>
+                Learn
+              </h2>
+
+              <p class="section-description">
+                Build the idea first. Then hear how it sounds.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div
+          id="learnGrid"
+          class="learn-grid"
+        ></div>
+
+      </section>
+
+
+      <!-- =====================================================
+           HEAR
+           ===================================================== -->
+
+      <section
+        id="hearSection"
+        class="lesson-section"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              02
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Listen
+              </p>
+
+              <h2>
+                Hear it
+              </h2>
+
+              <p class="section-description">
+                Listen carefully. Yoruba pronunciation is about
+                more than spelling.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div
+          id="hearGrid"
+          class="hear-grid"
+        ></div>
+
+      </section>
+
+
+      <!-- =====================================================
+           LETTERS
+           ===================================================== -->
+
+      <section
+        id="lettersSection"
+        class="lesson-section"
+        style="display:none;"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              03
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Build your ear
+              </p>
+
+              <h2>
+                Letters & sounds
+              </h2>
+
+              <p class="section-description">
+                Notice the sounds that make Yoruba distinct.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div
+          id="lettersGrid"
+          class="letter-grid"
+        ></div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TONES
+           ===================================================== -->
+
+      <section
+        id="tonesSection"
+        class="lesson-section"
+        style="display:none;"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              04
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Listen for pitch
+              </p>
+
+              <h2>
+                Tone
+              </h2>
+
+              <p class="section-description">
+                The pitch of a syllable can change meaning.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div
+          id="tonesGrid"
+          class="tone-grid"
+        ></div>
+
+      </section>
+
+
+      <!-- =====================================================
+           PRACTICE
+           ===================================================== -->
+
+      <section
+        id="practiceSection"
+        class="lesson-section"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              03
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Try it
+              </p>
+
+              <h2>
+                Practice
+              </h2>
+
+              <p class="section-description">
+                Don't just read. Make your brain retrieve it.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="practice-panel">
+
+          <p
+            id="practicePrompt"
+            class="practice-prompt"
+          ></p>
+
+          <div
+            id="practiceItems"
+            class="practice-items"
+          ></div>
+
+          <div
+            id="practiceQuestions"
+            class="practice-questions"
+          ></div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           SPEAK
+           ===================================================== -->
+
+      <section
+        id="speakSection"
+        class="lesson-section"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              04
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Use your voice
+              </p>
+
+              <h2>
+                Speak
+              </h2>
+
+              <p class="section-description">
+                Hear the phrase, then say it yourself.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="speak-panel">
+
+          <div class="speak-panel-header">
+
+            <h3>
+              Your turn
+            </h3>
+
+            <p id="speakPrompt">
+              Listen once. Then say it yourself.
+            </p>
+
+          </div>
+
+          <div
+            id="speakList"
+            class="speak-list"
+          ></div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           REVIEW
+           ===================================================== -->
+
+      <section
+        id="reviewSection"
+        class="lesson-section"
+      >
+
+        <div class="section-heading">
+
+          <div class="section-heading-main">
+
+            <div class="section-index">
+              05
+            </div>
+
+            <div>
+
+              <p class="section-eyebrow">
+                Check yourself
+              </p>
+
+              <h2>
+                Review
+              </h2>
+
+              <p class="section-description">
+                See what you remember before moving on.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div
+          id="reviewContainer"
+          class="review-container"
+        ></div>
+
+      </section>
+
+
+      <!-- =====================================================
+           COMPLETE
+           ===================================================== -->
+
+      <section
+        id="completeSection"
+        class="lesson-section"
+      >
+
+        <div class="complete-panel">
+
+          <div class="complete-icon">
+            ✓
+          </div>
+
+          <h2>
+            Lesson complete
+          </h2>
+
+          <p id="completionMessage">
+            Keep going. Every lesson gets you closer to speaking
+            Yoruba with confidence.
+          </p>
+
+          <div
+            id="completeStatus"
+            class="complete-status"
+          >
+            Complete the review to finish this lesson.
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           NAVIGATION
+           ===================================================== -->
+
+      <div class="lesson-navigation">
+
+        <a
+          id="previousLesson"
+          class="lesson-nav-card"
+          href="#"
+        >
+          <span class="lesson-nav-label">
+            ← Previous
+          </span>
+
+          <span
+            id="previousTitle"
+            class="lesson-nav-title"
+          ></span>
+        </a>
+
+        <a
+          id="nextLesson"
+          class="lesson-nav-card next"
+          href="#"
+        >
+          <span class="lesson-nav-label">
+            Next →
+          </span>
+
+          <span
+            id="nextTitle"
+            class="lesson-nav-title"
+          ></span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <!-- =======================================================
+       FOOTER
+       ======================================================= -->
+
+  <footer class="footer">
+
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+
+        <strong>
+          Sọ̀rọ̀ Sókè
+        </strong>
+
+        <p>
+          Speak it. Hear it. Learn it.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <a href="./index.html">
+          Home
+        </a>
+
+        <a href="./dictionary.html">
+          Dictionary
+        </a>
+
+        <a href="./learn.html">
+          Learn
+        </a>
+
+        <a href="./contribute.html">
+          Contribute
+        </a>
+
+      </div>
+
+      <div class="footer-credit">
+        Made by Pípọ̀làọ́láolúwà
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =======================================================
+       DATA
+       ======================================================= -->
+
+  <script src="./lessons.js"></script>
+
+
+  <!-- =======================================================
+       SPEECH ENGINE
+       ======================================================= -->
+
+  <script
+    type="module"
+    src="./app.js"
+  ></script>
+
+
+  <!-- =======================================================
+       LESSON ENGINE
+       ======================================================= -->
+
+  <script type="module">
+
+    /*
+     * ==========================================================
+     * SỌ̀RỌ̀ SÓKÈ
+     * LESSON ENGINE
+     * ==========================================================
+     */
+
+    document.addEventListener("DOMContentLoaded", () => {
+
+      const params = new URLSearchParams(
+        window.location.search
+      );
+
+      const lessonId = params.get("lesson");
+
+      const lessons = window.LESSONS || {};
+
+      const lesson = lessonId
+        ? lessons[lessonId]
+        : null;
+
+
+      /*
+       * --------------------------------------------------------
+       * ELEMENTS
+       * --------------------------------------------------------
+       */
+
+      const content = document.getElementById(
+        "lessonContent"
+      );
+
+      const notFound = document.getElementById(
+        "lessonNotFound"
+      );
+
+
+      /*
+       * --------------------------------------------------------
+       * NOT FOUND
+       * --------------------------------------------------------
+       */
+
+      if (!lesson) {
+
+        content.style.display = "none";
+        notFound.classList.add("show");
+
+        return;
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * HELPERS
+       * --------------------------------------------------------
+       */
+
+      const escapeHTML = (value) => {
+
+        if (value === null || value === undefined) {
+          return "";
+        }
+
+        return String(value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      };
+
+
+      const speak = (text) => {
+
+        if (
+          typeof window.speakText === "function"
+        ) {
+          window.speakText(text);
+        } else {
+          console.warn(
+            "Speech engine is not ready yet."
+          );
+        }
+
+      };
+
+
+      /*
+       * --------------------------------------------------------
+       * BASIC INFORMATION
+       * --------------------------------------------------------
+       */
+
+      const lessonNumber =
+        Number(lesson.lessonNumber || 1);
+
+      const chapterLessonCount =
+        Number(
+          lesson.chapterLessonCount || 1
+        );
+
+      const chapterNumber =
+        Number(
+          lesson.chapterNumber || 1
+        );
+
+      const levelName =
+        lesson.level || "Foundation";
+
+      const chapterName =
+        lesson.chapter || "";
+
+
+      document.title =
+        `${lesson.title} · Sọ̀rọ̀ Sókè`;
+
+
+      document.getElementById(
+        "breadcrumbLevel"
+      ).textContent = levelName;
+
+
+      document.getElementById(
+        "breadcrumbChapter"
+      ).textContent = chapterName;
+
+
+      document.getElementById(
+        "lessonKicker"
+      ).textContent =
+        `${levelName} · Chapter ${chapterNumber}`;
+
+
+      document.getElementById(
+        "lessonNumber"
+      ).textContent =
+        String(lessonNumber).padStart(2, "0");
+
+
+      document.getElementById(
+        "lessonTitle"
+      ).textContent =
+        lesson.title || "";
+
+
+      document.getElementById(
+        "lessonSubtitle"
+      ).textContent =
+        lesson.subtitle || "";
+
+
+      document.getElementById(
+        "lessonMission"
+      ).textContent =
+        lesson.mission || "";
+
+
+      /*
+       * --------------------------------------------------------
+       * PROGRESS
+       * --------------------------------------------------------
+       */
+
+      const progress =
+        chapterLessonCount > 0
+          ? Math.min(
+              100,
+              (lessonNumber /
+                chapterLessonCount) *
+                100
+            )
+          : 0;
+
+
+      document.getElementById(
+        "lessonProgressBar"
+      ).style.width =
+        `${progress}%`;
+
+
+      document.getElementById(
+        "lessonProgressText"
+      ).textContent =
+        `Lesson ${lessonNumber} of ${chapterLessonCount}`;
+
+
+      /*
+       * --------------------------------------------------------
+       * LEARN
+       * --------------------------------------------------------
+       */
+
+      const learnGrid =
+        document.getElementById(
+          "learnGrid"
+        );
+
+
+      const textSections =
+        (lesson.sections || [])
+          .filter(
+            section =>
+              section.type === "text"
+          );
+
+
+      if (textSections.length === 0) {
+
+        document.getElementById(
+          "learnSection"
+        ).style.display = "none";
+
+      } else {
+
+        learnGrid.innerHTML =
+          textSections
+            .map((section, index) => {
+
+              const featured =
+                index === 0 &&
+                textSections.length > 1
+                  ? " featured"
+                  : "";
+
+              return `
+                <article class="learn-card${featured}">
+                  <h3>
+                    ${escapeHTML(
+                      section.title || ""
+                    )}
+                  </h3>
+
+                  <p>
+                    ${escapeHTML(
+                      section.body || ""
+                    )}
+                  </p>
+                </article>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * HEAR
+       * --------------------------------------------------------
+       */
+
+      const hearGrid =
+        document.getElementById(
+          "hearGrid"
+        );
+
+
+      const hearSections =
+        (lesson.sections || [])
+          .filter(
+            section =>
+              section.type === "hear"
+          );
+
+
+      const hearItems =
+        hearSections.flatMap(
+          section =>
+            Array.isArray(section.items)
+              ? section.items
+              : []
+        );
+
+
+      if (hearItems.length === 0) {
+
+        document.getElementById(
+          "hearSection"
+        ).style.display = "none";
+
+      } else {
+
+        hearGrid.innerHTML =
+          hearItems
+            .map((item, index) => {
+
+              const text =
+                item.text ||
+                item.word ||
+                "";
+
+              const translation =
+                item.translation ||
+                "";
+
+              return `
+                <article class="sound-card">
+
+                  <div>
+
+                    <p class="sound-card-word">
+                      ${escapeHTML(text)}
+                    </p>
+
+                    ${
+                      translation
+                        ? `
+                          <p class="sound-card-translation">
+                            ${escapeHTML(
+                              translation
+                            )}
+                          </p>
+                        `
+                        : ""
+                    }
+
+                  </div>
+
+                  <button
+                    type="button"
+                    class="speak-button"
+                    data-speak="${escapeHTML(text)}"
+                  >
+                    <span>▶</span>
+                    Hear it
+                  </button>
+
+                </article>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * LETTERS
+       * --------------------------------------------------------
+       */
+
+      const lettersSection =
+        document.getElementById(
+          "lettersSection"
+        );
+
+      const lettersGrid =
+        document.getElementById(
+          "lettersGrid"
+        );
+
+
+      const letterSections =
+        (lesson.sections || [])
+          .filter(
+            section =>
+              section.type === "letters"
+          );
+
+
+      const letterItems =
+        letterSections.flatMap(
+          section =>
+            Array.isArray(section.items)
+              ? section.items
+              : []
+        );
+
+
+      if (letterItems.length === 0) {
+
+        lettersSection.style.display =
+          "none";
+
+      } else {
+
+        lettersSection.style.display =
+          "";
+
+        lettersGrid.innerHTML =
+          letterItems
+            .map(item => {
+
+              return `
+                <article class="letter-card">
+
+                  <span class="letter-symbol">
+                    ${escapeHTML(
+                      item.letter || ""
+                    )}
+                  </span>
+
+                  <span class="letter-sound">
+                    ${escapeHTML(
+                      item.sound || ""
+                    )}
+                  </span>
+
+                </article>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * TONES
+       * --------------------------------------------------------
+       */
+
+      const tonesSection =
+        document.getElementById(
+          "tonesSection"
+        );
+
+      const tonesGrid =
+        document.getElementById(
+          "tonesGrid"
+        );
+
+
+      const toneSections =
+        (lesson.sections || [])
+          .filter(
+            section =>
+              section.type === "tones"
+          );
+
+
+      const toneItems =
+        toneSections.flatMap(
+          section =>
+            Array.isArray(section.items)
+              ? section.items
+              : []
+        );
+
+
+      if (toneItems.length === 0) {
+
+        tonesSection.style.display =
+          "none";
+
+      } else {
+
+        tonesSection.style.display =
+          "";
+
+        tonesGrid.innerHTML =
+          toneItems
+            .map(item => {
+
+              return `
+                <article class="tone-card">
+
+                  <span class="tone-mark">
+                    ${escapeHTML(
+                      item.mark || ""
+                    )}
+                  </span>
+
+                  <p class="tone-name">
+                    ${escapeHTML(
+                      item.name || ""
+                    )}
+                  </p>
+
+                  <p class="tone-example">
+                    Example:
+                    ${escapeHTML(
+                      item.example || ""
+                    )}
+                  </p>
+
+                </article>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * PRACTICE
+       * --------------------------------------------------------
+       */
+
+      const practiceSection =
+        (lesson.sections || [])
+          .find(
+            section =>
+              section.type === "practice"
+          );
+
+
+      const practicePrompt =
+        document.getElementById(
+          "practicePrompt"
+        );
+
+      const practiceItems =
+        document.getElementById(
+          "practiceItems"
+        );
+
+      const practiceQuestions =
+        document.getElementById(
+          "practiceQuestions"
+        );
+
+
+      if (!practiceSection) {
+
+        document.getElementById(
+          "practiceSection"
+        ).style.display = "none";
+
+      } else {
+
+        practicePrompt.textContent =
+          practiceSection.prompt || "";
+
+
+        const items =
+          Array.isArray(
+            practiceSection.items
+          )
+            ? practiceSection.items
+            : [];
+
+
+        practiceItems.innerHTML =
+          items
+            .map(item => {
+
+              const text =
+                typeof item === "string"
+                  ? item
+                  : item.text || "";
+
+              return `
+                <div class="practice-item">
+                  ${escapeHTML(text)}
+                </div>
+              `;
+
+            })
+            .join("");
+
+
+        const questions =
+          Array.isArray(
+            practiceSection.questions
+          )
+            ? practiceSection.questions
+            : [];
+
+
+        practiceQuestions.innerHTML =
+          questions
+            .map((question, qIndex) => {
+
+              return `
+                <div
+                  class="practice-question"
+                  data-practice-question="${qIndex}"
+                >
+
+                  <p class="practice-question-text">
+                    ${escapeHTML(
+                      question.question || ""
+                    )}
+                  </p>
+
+                  <div class="practice-options">
+
+                    ${(question.options || [])
+                      .map(option => {
+
+                        return `
+                          <button
+                            type="button"
+                            class="practice-option"
+                            data-practice-answer="${escapeHTML(
+                              option
+                            )}"
+                          >
+                            ${escapeHTML(option)}
+                          </button>
+                        `;
+
+                      })
+                      .join("")}
+
+                  </div>
+
+                </div>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * SPEAK
+       * --------------------------------------------------------
+       */
+
+      const speakSection =
+        (lesson.sections || [])
+          .find(
+            section =>
+              section.type === "speak" ||
+              section.type === "speaking"
+          );
+
+
+      const speakList =
+        document.getElementById(
+          "speakList"
+        );
+
+
+      if (!speakSection) {
+
+        document.getElementById(
+          "speakSection"
+        ).style.display = "none";
+
+      } else {
+
+        document.getElementById(
+          "speakPrompt"
+        ).textContent =
+          speakSection.prompt ||
+          "Listen once. Then say it yourself.";
+
+
+        const phrases =
+          Array.isArray(
+            speakSection.phrases
+          )
+            ? speakSection.phrases
+            : [];
+
+
+        speakList.innerHTML =
+          phrases
+            .map(phrase => {
+
+              const text =
+                phrase.text || "";
+
+              const translation =
+                phrase.translation || "";
+
+              return `
+                <div class="speak-row">
+
+                  <div>
+
+                    <p class="speak-text">
+                      ${escapeHTML(text)}
+                    </p>
+
+                    ${
+                      translation
+                        ? `
+                          <p class="speak-translation">
+                            ${escapeHTML(
+                              translation
+                            )}
+                          </p>
+                        `
+                        : ""
+                    }
+
+                  </div>
+
+                  <button
+                    type="button"
+                    class="speak-button"
+                    data-speak="${escapeHTML(text)}"
+                  >
+                    ▶ Hear phrase
+                  </button>
+
+                </div>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * REVIEW
+       * --------------------------------------------------------
+       */
+
+      const reviewContainer =
+        document.getElementById(
+          "reviewContainer"
+        );
+
+
+      const review =
+        lesson.review || {};
+
+      const reviewQuestions =
+        Array.isArray(review.questions)
+          ? review.questions
+          : [];
+
+
+      let answeredReviewQuestions = 0;
+      let correctReviewQuestions = 0;
+
+
+      const updateCompletion = () => {
+
+        const total =
+          reviewQuestions.length;
+
+        const allAnswered =
+          answeredReviewQuestions >= total;
+
+        const completeStatus =
+          document.getElementById(
+            "completeStatus"
+          );
+
+
+        if (total === 0) {
+
+          completeStatus.textContent =
+            "This lesson is complete.";
+
+          return;
+
+        }
+
+
+        if (!allAnswered) {
+
+          completeStatus.textContent =
+            `${answeredReviewQuestions} of ${total} review questions answered.`;
+
+          return;
+
+        }
+
+
+        if (
+          correctReviewQuestions === total
+        ) {
+
+          completeStatus.textContent =
+            "Perfect. You got every review question right.";
+
+        } else {
+
+          completeStatus.textContent =
+            `${correctReviewQuestions} of ${total} correct. Lesson complete.`;
+
+        }
+
+
+        localStorage.setItem(
+          `soro-soke-completed-${lessonId}`,
+          "true"
+        );
+
+      };
+
+
+      if (reviewQuestions.length === 0) {
+
+        reviewContainer.innerHTML = `
+          <div class="review-card">
+            <p class="review-question">
+              No review questions yet.
+            </p>
+          </div>
+        `;
+
+      } else {
+
+        reviewContainer.innerHTML =
+          reviewQuestions
+            .map((question, index) => {
+
+              return `
+                <article
+                  class="review-card"
+                  data-review-index="${index}"
+                >
+
+                  <div class="review-number">
+                    Question ${index + 1}
+                  </div>
+
+                  <p class="review-question">
+                    ${escapeHTML(
+                      question.question || ""
+                    )}
+                  </p>
+
+                  <div class="review-options">
+
+                    ${(question.options || [])
+                      .map(option => {
+
+                        return `
+                          <button
+                            type="button"
+                            class="review-option"
+                            data-answer="${escapeHTML(
+                              option
+                            )}"
+                          >
+                            ${escapeHTML(option)}
+                          </button>
+                        `;
+
+                      })
+                      .join("")}
+
+                  </div>
+
+                  <div
+                    class="review-feedback"
+                    data-feedback
+                  ></div>
+
+                </article>
+              `;
+
+            })
+            .join("");
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * COMPLETION MESSAGE
+       * --------------------------------------------------------
+       */
+
+      document.getElementById(
+        "completionMessage"
+      ).textContent =
+        lesson.completionMessage ||
+        "Keep going. Every lesson gets you closer to speaking Yoruba with confidence.";
+
+
+      /*
+       * --------------------------------------------------------
+       * NAVIGATION
+       * --------------------------------------------------------
+       */
+
+      const previousLink =
+        document.getElementById(
+          "previousLesson"
+        );
+
+      const nextLink =
+        document.getElementById(
+          "nextLesson"
+        );
+
+      const previousTitle =
+        document.getElementById(
+          "previousTitle"
+        );
+
+      const nextTitle =
+        document.getElementById(
+          "nextTitle"
+        );
+
+
+      if (
+        lesson.navigation &&
+        lesson.navigation.previous
+      ) {
+
+        previousLink.href =
+          `./lesson.html?lesson=${encodeURIComponent(
+            lesson.navigation.previous
+          )}`;
+
+        const previousLesson =
+          lessons[
+            lesson.navigation.previous
+          ];
+
+        previousTitle.textContent =
+          previousLesson
+            ? previousLesson.title
+            : "Previous lesson";
+
+      } else {
+
+        previousLink.classList.add(
+          "lesson-nav-empty"
+        );
+
+      }
+
+
+      if (
+        lesson.navigation &&
+        lesson.navigation.next
+      ) {
+
+        nextLink.href =
+          `./lesson.html?lesson=${encodeURIComponent(
+            lesson.navigation.next
+          )}`;
+
+        const nextLesson =
+          lessons[
+            lesson.navigation.next
+          ];
+
+        nextTitle.textContent =
+          nextLesson
+            ? nextLesson.title
+            : "Next lesson";
+
+      } else {
+
+        nextLink.classList.add(
+          "lesson-nav-empty"
+        );
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * SPEECH EVENT DELEGATION
+       * --------------------------------------------------------
+       */
+
+      document.addEventListener(
+        "click",
+        event => {
+
+          const button =
+            event.target.closest(
+              "[data-speak]"
+            );
+
+          if (!button) {
+            return;
+          }
+
+          const text =
+            button.getAttribute(
+              "data-speak"
+            );
+
+          if (!text) {
+            return;
+          }
+
+          speak(text);
+
+        }
+      );
+
+
+      /*
+       * --------------------------------------------------------
+       * PRACTICE INTERACTION
+       * --------------------------------------------------------
+       */
+
+      document.addEventListener(
+        "click",
+        event => {
+
+          const button =
+            event.target.closest(
+              "[data-practice-answer]"
+            );
+
+          if (!button) {
+            return;
+          }
+
+          const question =
+            button.closest(
+              "[data-practice-question]"
+            );
+
+          if (!question) {
+            return;
+          }
+
+          question
+            .querySelectorAll(
+              ".practice-option"
+            )
+            .forEach(
+              option =>
+                option.classList.remove(
+                  "correct",
+                  "incorrect"
+                )
+            );
+
+
+          /*
+           * Practice questions can optionally
+           * provide a `answer` property.
+           */
+
+          const questionIndex =
+            Number(
+              question.getAttribute(
+                "data-practice-question"
+              )
+            );
+
+
+          const source =
+            practiceSection &&
+            Array.isArray(
+              practiceSection.questions
+            )
+              ? practiceSection.questions[
+                  questionIndex
+                ]
+              : null;
+
+
+          if (!source) {
+            return;
+          }
+
+
+          const selected =
+            button.getAttribute(
+              "data-practice-answer"
+            );
+
+
+          if (
+            source.answer &&
+            selected === source.answer
+          ) {
+
+            button.classList.add(
+              "correct"
+            );
+
+          } else if (source.answer) {
+
+            button.classList.add(
+              "incorrect"
+            );
+
+          }
+
+        }
+      );
+
+
+      /*
+       * --------------------------------------------------------
+       * REVIEW INTERACTION
+       * --------------------------------------------------------
+       */
+
+      document.addEventListener(
+        "click",
+        event => {
+
+          const button =
+            event.target.closest(
+              ".review-option"
+            );
+
+          if (!button) {
+            return;
+          }
+
+
+          const card =
+            button.closest(
+              "[data-review-index]"
+            );
+
+          if (!card) {
+            return;
+          }
+
+
+          /*
+           * Prevent answering a question twice.
+           */
+
+          if (
+            card.dataset.answered === "true"
+          ) {
+            return;
+          }
+
+
+          const index =
+            Number(
+              card.getAttribute(
+                "data-review-index"
+              )
+            );
+
+
+          const question =
+            reviewQuestions[index];
+
+
+          if (!question) {
+            return;
+          }
+
+
+          const selected =
+            button.getAttribute(
+              "data-answer"
+            );
+
+
+          const isCorrect =
+            selected === question.answer;
+
+
+          card.dataset.answered =
+            "true";
+
+
+          answeredReviewQuestions++;
+
+
+          if (isCorrect) {
+
+            correctReviewQuestions++;
+
+          }
+
+
+          card
+            .querySelectorAll(
+              ".review-option"
+            )
+            .forEach(option => {
+
+              option.disabled = true;
+
+              const optionValue =
+                option.getAttribute(
+                  "data-answer"
+                );
+
+
+              if (
+                optionValue ===
+                question.answer
+              ) {
+
+                option.classList.add(
+                  "correct"
+                );
+
+              }
+
+            });
+
+
+          if (!isCorrect) {
+
+            button.classList.add(
+              "incorrect"
+            );
+
+          }
+
+
+          const feedback =
+            card.querySelector(
+              "[data-feedback]"
+            );
+
+
+          if (feedback) {
+
+            feedback.classList.add(
+              "show"
+            );
+
+
+            if (isCorrect) {
+
+              feedback.classList.add(
+                "correct"
+              );
+
+              feedback.textContent =
+                review.correctMessage ||
+                "Correct.";
+
+            } else {
+
+              feedback.classList.add(
+                "incorrect"
+              );
+
+              feedback.textContent =
+                review.incorrectMessage ||
+                "Not quite. The correct answer is highlighted.";
+
+            }
+
+          }
+
+
+          updateCompletion();
+
+        }
+      );
+
+
+      /*
+       * --------------------------------------------------------
+       * RESTORE COMPLETION STATE
+       * --------------------------------------------------------
+       */
+
+      const alreadyCompleted =
+        localStorage.getItem(
+          `soro-soke-completed-${lessonId}`
+        );
+
+
+      if (alreadyCompleted === "true") {
+
+        document.getElementById(
+          "completeStatus"
+        ).textContent =
+          "You have already completed this lesson.";
+
+      }
+
+
+      /*
+       * --------------------------------------------------------
+       * FINAL
+       * --------------------------------------------------------
+       */
+
+      console.log(
+        `Loaded lesson: ${lessonId}`
+      );
+
+    });
+
+  </script>
+
+</body>
+</html>
